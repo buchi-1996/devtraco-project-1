@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+@layer{
+  body{
+      font-family: 'poppins';
+      font-weight: 300;
+      font-size: 0.875rem !important;
+      line-height: 164% !important;
+
+  }
+
+  h1,h2,h4,h5{
+      font-family: 'prompt';
+      font-weight: 600 !important;
+      line-height: 120% !important;
+  }
+}
