@@ -1,6 +1,6 @@
-import React, { useContext, useState } from 'react'
-import { Link } from 'react-router-dom';
-import { headerRoutes } from '../routes/routes';
+import React, { useContext } from 'react'
+// import { Link } from 'react-router-dom';
+// import { headerRoutes } from '../routes/routes';
 import AppState from '../context/AppState';
 
 const MobileMenu = () => {

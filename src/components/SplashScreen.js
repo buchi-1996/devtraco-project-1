@@ -1,6 +1,6 @@
 import React from 'react'
-import { AnimatePresence, motion } from "framer-motion";
-import { pageSlide, pageTransition, pageZoom } from '../lib/framer-motion';
+import { motion } from "framer-motion";
+import { pageTransition, pageZoom } from '../lib/framer-motion';
 
 
 const SplashScreen = () => {

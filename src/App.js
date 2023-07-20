@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Routes, Route, useLocation, Link } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import { AnimatePresence, LayoutGroup } from "framer-motion";
@@ -18,7 +18,7 @@ import MobileMenu from "./components/MobileMenu";
 import AppState from "./context/AppState";
 
 function App() {
-  const {state, dispatch} = useContext(AppState)
+  const {state} = useContext(AppState)
   const [isWelcome, setIsWelcome] = useState(true);
   const pathname = useLocation().pathname;
   const isHome = pathname === "/";
