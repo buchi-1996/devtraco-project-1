@@ -36,7 +36,7 @@ function App() {
   }
 
   return (
-    <div className={`app ${!state.isMobileOpen && 'h-screen overflow-hidden'} `}>
+    <div className={`app ${state.isMobileOpen && 'h-screen overflow-hidden'} `}>
       <AnimatePresence mode="wait">
         <LayoutGroup>
           {isHome ? <Header /> : <HeaderMain />}
