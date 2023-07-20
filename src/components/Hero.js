@@ -108,14 +108,14 @@ const Hero = () => {
   return (
     <section className="bg-hero-pattern  bg-cover bg-no-repeat bg-center pt-32">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row items-center space-x-8">
+        <div className="flex flex-col lg:flex-row items-center md:space-x-8">
           <motion.div
             initial="initial"
             animate="in"
             exit="out"
             variants={pageSlide}
             transition={pageTransition}
-            className="bg-devtraco-blue bg-opacity-50 rounded-3xl pt-40 pb-10 px-14 flex-1"
+            className="md:bg-devtraco-blue md:bg-opacity-50 rounded-3xl md:pt-40 pb-10 md:px-14 flex-1"
           >
             <h1 className="text-[3rem] max-w-2xl leading-[120%] text-white">
               Your gateway to lucrative real estate investments.
@@ -133,9 +133,9 @@ const Hero = () => {
             exit="out"
             variants={pageSlide}
             transition={pageTransition}
-            className="flex flex-row space-x-6 bg-devtraco-blue bg-opacity-50 rounded-3xl box-border min-w-[26.25rem] place-self-start py-5 pl-5 pr-8"
+            className="flex flex-row space-x-6 bg-devtraco-blue bg-opacity-50 rounded-3xl box-border min-w-full md:min-w-[26.25rem] place-self-start py-5 pl-5 pr-8"
           >
-            <div className="overflow-hidden min-w-[19.375rem] h-[27rem] rounded-3xl">
+            <div className="overflow-hidden w-full md:min-w-[19.375rem] h-[27rem] rounded-3xl">
               <div
                 style={{ transform: `translateY(-${screen}rem)` }}
                 className={`transition-all ease-in-out duration-500 delay-[200ms] slider min-w-max h-full  flex flex-col items-center`}

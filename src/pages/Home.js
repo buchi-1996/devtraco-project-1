@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <main>
       <Hero />
-      <section id="about" className="py-20 bg-devtraco-blue">
+      <section id="about" className="py-14 bg-devtraco-blue">
         <div className="container mx-auto">
-          <div className="flex flex-row flex-wrap items-center justify-center space-x-10">
+          <div className="flex flex-row flex-wrap items-center justify-center gap-y-10 space-x-10">
             <div>
               <img
                 src="../2560px-Ecobank_Logo 1.png"
@@ -61,7 +61,7 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="">
+            <div className="mt-20 md:mt-0">
               <h1 className="text-[3rem] font-bold md:max-w-[33.5rem] text-white">
                 <span className="text-primary-purple">Why Invest in Us:</span>{" "}
                 Your Path to Financial Success
@@ -108,10 +108,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="bg-devtraco-blue py-10">
+      <section className="bg-devtraco-blue py-5 md:py-10">
         <div className="container mx-auto">
-          <div className="flex flex-row items-start justify-between space-x-4">
-            <div className="group/card h-[39rem] w-[27rem] flex flex-col items-left justify-end px-8 py-10 bg-extra-1 hover:bg-extra-hover-1 bg-cover bg-center">
+          <div className="flex flex-col md:flex-row items-start justify-between space-y-6 md:space-y-0 md:space-x-4">
+            <div className="group/card h-[39rem] w-full md:w-[27rem] flex flex-col items-left justify-end px-8 py-10 bg-extra-1 hover:bg-extra-hover-1 bg-cover bg-center">
               <div>
                 <h4 className="text-white font-bold text-3xl">
                   Strategic Partnerships
@@ -121,7 +121,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="group/card h-[39rem] w-[27rem] flex flex-col items-left justify-end px-8 py-10 bg-extra-2 hover:bg-extra-hover-2 bg-cover bg-center">
+            <div className="group/card h-[39rem] w-full md:w-[27rem] flex flex-col items-left justify-end px-8 py-10 bg-extra-2 hover:bg-extra-hover-2 bg-cover bg-center">
               <div>
                 <h4 className="text-white font-bold text-3xl">
                   Investors Benefits
@@ -131,7 +131,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="group/card h-[39rem] w-[27rem] flex flex-col items-left justify-end bg-extra-3 hover:bg-extra-hover-3 px-8 py-10 bg-card-gradient bg-cover bg-center">
+            <div className="group/card h-[39rem] w-full md:w-[27rem] flex flex-col items-left justify-end bg-extra-3 hover:bg-extra-hover-3 px-8 py-10 bg-card-gradient bg-cover bg-center">
               <div>
                 <h4 className="text-white font-bold text-3xl">
                   Experienced Team
@@ -146,7 +146,7 @@ const Home = () => {
       </section>
       <section className="bg-devtraco-blue py-28">
         <div className="container mx-auto">
-          <div className="flex flex-row items-end justify-between space-x-10">
+          <div className="flex flex-col md:flex-row items-start md:items-end justify-between space-y-6 md:space-x-10">
             <div>
               <span className="text-primary-purple">_Our Services</span>
               <h1 className="text-[3rem] text-white font-bold max-w-[26rem]">
@@ -163,9 +163,9 @@ const Home = () => {
             <Button text="Find out More" isIcon={true} />
           </div>
           <div className="my-10">
-            <div className="grid grid-cols-3 gap-6 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
               {/* service card */}
-              <div className="group bg-no-repeat bg-service-card-1 hover:bg-service-card-hover bg-cover py-10 px-10 col-span-2 transition-all ease-in-out duration-500 delay-[500ms]">
+              <div className="group bg-no-repeat bg-service-card-1 hover:bg-service-card-hover bg-cover py-10 px-10 col-auto md:col-span-2 transition-all ease-in-out duration-500 delay-[500ms]">
                 <div className="flex flex-row items-center justify-between">
                   <span>
                     <svg
@@ -283,9 +283,6 @@ const Home = () => {
                   surpass expectations.
                 </p>
               </div>
-            </div>
-            <div className="grid grid-cols-3 gap-6">
-              {/* service card */}
               <div className="group bg-no-repeat bg-service-card-3 hover:bg-service-card-hover bg-cover py-10 px-10 transition-all ease-in-out duration-500 delay-[500ms]">
                 <div className="flex flex-row items-center justify-between">
                   <span>
@@ -351,7 +348,7 @@ const Home = () => {
                   surpass expectations.
                 </p>
               </div>
-              <div className="group bg-no-repeat bg-service-card-4 hover:bg-service-card-hover bg-cover py-10 px-10 col-span-2 transition-all ease-in-out duration-500 delay-[500ms]">
+              <div className="group bg-no-repeat bg-service-card-4 hover:bg-service-card-hover bg-cover py-10 px-10  col-auto md:col-span-2  transition-all ease-in-out duration-500 delay-[500ms]">
                 <div className="flex flex-row items-center justify-between">
                   <span>
                     <svg
@@ -418,7 +415,7 @@ const Home = () => {
       </section>
       <section className="bg-devtraco-blue py-18">
         <div className="container mx-auto">
-          <div className="flex flex-row items-end justify-between space-x-10">
+          <div className="flex flex-col md:flex-row items-start md:items-end justify-between space-y-6 md:space-x-10">
             <div>
               <span className="text-primary-purple">_Our Subsidiaries</span>
               <h1 className="text-[3rem] text-white font-bold max-w-[35rem]">
