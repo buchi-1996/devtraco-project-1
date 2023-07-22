@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import Button from "./Button";
 import { motion } from "framer-motion";
 import { pageSlide, pageTransition } from "../lib/framer-motion";
-
 
 const images = [
   {
@@ -82,25 +81,43 @@ const images = [
   },
 ];
 
-
 const Hero = () => {
-
   const [screen, setScreen] = useState(0);
+  const [height, setHeight] = useState(0);
+
+  const ref = useRef(null);
+
+ 
+  useLayoutEffect(() => {
+    function handleResize() {
+      if (ref.current) {
+        const height = Math.floor(ref.current.offsetHeight/16)
+        setHeight(height);
+        setScreen(0);
+        console.log(height)
+      }
+    }
+
+    handleResize(); // initial call to get width and height of the element
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [ref]);
+
+ 
 
   const slideUp = () => {
-
     if (screen === 0) {
-      setScreen((images.length - 1) * 27);
+      setScreen((images.length - 1) * height);
     }
-    return setScreen((prev) => prev - 27);
+    return setScreen((prev) => prev - height);
   };
 
   const slideDown = () => {
     setScreen((prev) => {
-      if (prev === (images.length - 1) * 27) {
+      if (prev === (images.length - 1) * height) {
         setScreen(0);
       }
-      return prev + 27;
+      return prev + height;
     });
   };
 
@@ -124,7 +141,7 @@ const Hero = () => {
               real estate developments that transcend expectations. With a rich
               history and a commitment to excellence.
             </p>
-            <Button text='About Devtraco' isIcon={true}/>
+            <Button text="About Devtraco" isIcon={true} />
           </motion.div>
           <motion.div
             initial="initial"
@@ -132,9 +149,12 @@ const Hero = () => {
             exit="out"
             variants={pageSlide}
             transition={pageTransition}
-            className="flex flex-row space-x-6 bg-devtraco-blue bg-opacity-50 rounded-3xl box-border    place-self-start py-5 pl-5 pr-8"
+            className="flex flex-row space-x-6 bg-devtraco-blue bg-opacity-50 rounded-3xl box-border    place-self-start py-5 pl-5 pr-5 sm:pr-8"
           >
-            <div className="overflow-hidden w-full   h-[27rem] rounded-3xl">
+            <div
+              ref={ref}
+              className="overflow-hidden w-full h-[18rem]  sm:h-[27rem] rounded-3xl"
+            >
               <div
                 style={{ transform: `translateY(-${screen}rem)` }}
                 className={`transition-all ease-in-out duration-500 delay-[200ms] slider md:min-w-max h-full  flex flex-col items-center`}
@@ -150,13 +170,13 @@ const Hero = () => {
               </div>
             </div>
             <div className="flex flex-col justify-between align-center relative box-border">
-              <h1 className="text-[3rem] text-white absolute transform rotate-90 -translate-x-28 translate-y-24 -mt-1 ml-1 ">
+              <h1 className="text-[2rem] sm:text-[3rem] text-white absolute transform rotate-90 -translate-x-28 translate-y-24 -mt-8 sm:-mt-1 ml-10 sm:ml-1 ">
                 Properties
               </h1>
-              <div className="flex flex-col mt-auto space-y-4 md:space-y-2">
+              <div className="flex flex-col mt-auto space-y-3 md:space-y-2">
                 <button onClick={slideUp}>
                   <svg
-                    className="w-10 h-10"
+                    className="w-8 h-8"
                     viewBox="0 0 33 33"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +206,7 @@ const Hero = () => {
                 </button>
                 <button onClick={slideDown}>
                   <svg
-                    className="w-10 h-10"
+                    className="w-8 h-8"
                     viewBox="0 0 33 33"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -219,36 +239,36 @@ const Hero = () => {
           </motion.div>
         </div>
         <div className="flex flex-row items-center justify-center mt-10">
-        <a href="#about">
-          <svg 
-          className="animate-bounce"
-            width="74"
-            height="74"
-            viewBox="0 0 74 74"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="Group 2">
-              <circle
-                id="Ellipse 1"
-                cx="37.1165"
-                cy="36.5758"
-                r="25.3242"
-                transform="rotate(135 37.1165 36.5758)"
-                stroke="#F9FAFB"
-                stroke-width="1.07763"
-              />
-              <path
-                id="Vector"
-                d="M36.7429 23.7401V49.4116M36.7429 49.4116L24.4206 37.0892M36.7429 49.4116L49.0652 37.0892"
-                stroke="white"
-                stroke-width="1.95951"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </g>
-          </svg>
-        </a>
+          <a href="#about">
+            <svg
+              className="animate-bounce"
+              width="74"
+              height="74"
+              viewBox="0 0 74 74"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="Group 2">
+                <circle
+                  id="Ellipse 1"
+                  cx="37.1165"
+                  cy="36.5758"
+                  r="25.3242"
+                  transform="rotate(135 37.1165 36.5758)"
+                  stroke="#F9FAFB"
+                  stroke-width="1.07763"
+                />
+                <path
+                  id="Vector"
+                  d="M36.7429 23.7401V49.4116M36.7429 49.4116L24.4206 37.0892M36.7429 49.4116L49.0652 37.0892"
+                  stroke="white"
+                  stroke-width="1.95951"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+            </svg>
+          </a>
         </div>
       </div>
     </section>
