@@ -53,7 +53,7 @@ const tabItems = [
     },
 ];
 
-const tabMenus = ["all projects", "completed", "ongoing", "upcoming", "me"];
+const tabMenus = ["all projects", "completed", "ongoing", "upcoming"];
 
 const TabGallery = () => {
     const [pane, setPane] = useState("all projects");

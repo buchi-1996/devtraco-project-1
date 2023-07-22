@@ -1,231 +1,379 @@
 import React from "react";
+import headerBg from "../assets/Rectangle-3886.jpg";
+import PageBanner from "../components/PageBanner";
 
 const About = () => {
   return (
-    <div>
-      <div className="container mx-auto">
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
-        suscipit et alias iusto quisquam excepturi rem expedita qui ipsam in
-        quidem impedit illum enim ut possimus dolorum nulla, repellat nobis.
-        Quia porro recusandae expedita officia velit enim soluta culpa! At
-        fugiat assumenda minima nesciunt corrupti tempora expedita est soluta
-        beatae, maiores aperiam. Magnam nobis aliquid, expedita dolore quod
-        vitae eos ipsum dolorem fuga saepe reiciendis delectus error doloribus
-        ratione, minus obcaecati quisquam excepturi iste culpa ab et. Quam sint
-        molestias ab dolore dicta officiis eaque suscipit debitis harum sunt
-        accusantium deserunt expedita sapiente voluptatum, quaerat ad amet
-        distinctio laborum error nostrum hic quisquam esse aspernatur! Officia
-        quibusdam doloribus, et eius aperiam dignissimos ex quis at iure?
-        Molestias sunt enim, repellat nam minima atque, dolorem in adipisci fuga
-        maiores, earum unde. Excepturi, ad. Blanditiis expedita consectetur odit
-        mollitia saepe possimus ad, recusandae est, tenetur laudantium libero
-        sint sapiente consequatur, sed ducimus culpa? Molestias consequatur
-        nihil ipsum expedita natus explicabo sit eos! Natus optio soluta officia
-        pariatur animi! Deserunt consequatur, vitae perspiciatis nihil laborum
-        iste dolorem voluptatibus, temporibus praesentium repellat totam quidem
-        officiis impedit quaerat quasi! Quidem error, quos quisquam impedit vel,
-        minima eos neque eius, expedita accusantium repellendus? Animi dolorum
-        placeat id tenetur quibusdam enim architecto, deleniti, voluptatum
-        temporibus cum quo nesciunt eveniet similique atque porro consectetur ex
-        omnis praesentium quia pariatur. Quisquam, odit! Laudantium mollitia,
-        perferendis quidem quod asperiores ullam architecto ipsa deserunt
-        quaerat facere nisi hic repudiandae. Nemo libero necessitatibus minima
-        vero, fugit aliquam similique id. Inventore amet blanditiis, officiis
-        aliquid quas, alias asperiores impedit velit sit, veritatis tempora
-        consequatur nihil fuga tenetur aliquam adipisci! Earum repudiandae
-        veniam itaque error. Quaerat aperiam voluptatibus inventore suscipit
-        vitae ab enim placeat possimus velit, cupiditate praesentium!
-        Repellendus provident magni maxime sit cum, excepturi voluptas ipsa unde
-        animi repellat aliquam sunt repudiandae saepe error corporis fugiat
-        iste. Neque expedita ab omnis vitae sint debitis modi suscipit
-        laboriosam exercitationem illo, dolorem dolorum at distinctio numquam
-        alias iste quidem! Id, velit culpa saepe magnam sequi ipsa! Corrupti qui
-        natus dolorum fuga ullam odio expedita, quam cupiditate assumenda
-        tempore nisi recusandae obcaecati maxime reiciendis quae pariatur,
-        quibusdam enim, corporis incidunt explicabo suscipit sint reprehenderit?
-        Earum repellat commodi consectetur eius, perferendis porro nesciunt
-        suscipit labore tempora quae harum? Officia laborum optio aut earum
-        cupiditate, illum obcaecati magnam at soluta, est blanditiis. Natus
-        debitis nobis quibusdam praesentium fugit ad incidunt id unde inventore
-        facere minus qui doloribus ipsum temporibus non voluptate exercitationem
-        in cum, numquam eligendi consequuntur? Nemo esse, error illo cum numquam
-        nobis ipsum dolorum, vero quaerat libero incidunt sed expedita doloribus
-        dolorem est modi iste ratione veniam iusto ea. Asperiores sapiente at
-        sunt praesentium, nemo maiores dolorem minus corrupti eius laborum,
-        accusantium illo ad quidem, beatae mollitia? Officiis, praesentium
-        ducimus fugiat tempora maiores nesciunt repellat culpa placeat dolorum
-        dolores excepturi perspiciatis ab, commodi magnam? Nobis quos ut
-        possimus minus nisi repellat quisquam! Ea, reiciendis? Cumque in
-        repudiandae non, nam nisi dignissimos porro perspiciatis sed dolorem est
-        corporis ea ipsa alias aspernatur iure. Perspiciatis deleniti odio porro
-        ratione ad minima ea pariatur dolorem quidem tempora! Doloribus voluptas
-        voluptatem reprehenderit vel, sequi non nesciunt deleniti eaque aliquam
-        officia id nisi perferendis quo consequatur quia dolor tenetur commodi
-        dolore asperiores nobis consectetur praesentium molestias neque.
-        Consectetur error expedita suscipit qui optio, soluta alias pariatur
-        asperiores in quasi, sed maxime! Voluptates, quam minima? Ducimus beatae
-        quidem assumenda obcaecati fugiat voluptas odit illo. Totam, provident?
-        Unde ipsam, aperiam sunt esse tenetur animi id dolorum a deleniti
-        sapiente, sit dicta explicabo alias adipisci, debitis iusto fugit
-        asperiores! Saepe quibusdam accusamus quam. Aut ullam at, beatae earum
-        molestiae modi temporibus aperiam corporis autem impedit quisquam
-        ratione suscipit adipisci a cumque quia natus libero doloremque itaque!
-        Aliquid perspiciatis dolore quaerat velit! Quia libero culpa, expedita
-        autem aspernatur odio quaerat vitae laborum consequuntur molestiae
-        maiores temporibus perferendis officiis, placeat ab sed ducimus unde
-        impedit. Ut, voluptatibus! Quis, aliquam perferendis excepturi nostrum
-        animi adipisci repellendus! Quas explicabo dolorem suscipit iusto
-        pariatur! Eligendi cum commodi alias! Delectus doloribus reprehenderit
-        officia hic similique tenetur, quibusdam accusantium quis nam omnis
-        optio expedita molestias ducimus esse distinctio necessitatibus,
-        voluptatibus ipsa ipsam tempore cum ipsum soluta! Dignissimos expedita
-        pariatur magni impedit dicta eum, ipsa porro, eius deleniti corporis
-        quam unde! Corrupti, quia vitae obcaecati voluptatum sunt alias porro
-        nesciunt ab facere. A soluta quas eaque et iste! Numquam quis ipsum
-        nostrum inventore architecto voluptas iure iusto, pariatur voluptatibus
-        voluptatem optio necessitatibus assumenda ea nisi sunt quidem eligendi
-        ullam, porro ipsa deserunt dolores ratione aliquid, error dolore!
-        Tempora odit laudantium quae ipsam minima quos quidem sint aliquam ab
-        voluptatem ut temporibus, optio qui quisquam quam nam nobis voluptates,
-        minus magnam ratione corporis unde ex illum. Odio unde at nihil?
-        Praesentium impedit ducimus minima ad ea reprehenderit corporis nobis
-        est. Aliquam laboriosam qui tenetur vel beatae quod dignissimos
-        voluptate praesentium! Nostrum voluptates vel in? Ipsam qui eos quos vel
-        harum nihil dolorem excepturi sint impedit hic. Quo ipsam nemo placeat
-        natus libero voluptate, corporis repellat incidunt numquam quis tempora?
-        Officia necessitatibus debitis error architecto eum voluptates alias
-        dolorum! Quisquam quod odit minima maxime sed dicta in? Totam culpa,
-        ullam cum perspiciatis sed, accusamus nesciunt unde consequatur odit,
-        quis architecto ipsum? Sed officiis quaerat, aperiam tempore, omnis,
-        amet magni repellat debitis nam neque tempora. Placeat quibusdam alias
-        accusantium sapiente veniam repudiandae dicta velit ipsam accusamus
-        porro adipisci, obcaecati similique quisquam fugit expedita illum
-        necessitatibus impedit harum ea repellendus, error odit voluptate odio
-        dolorem. Quae cumque maxime possimus ad commodi earum animi assumenda
-        odit, eveniet nobis consequatur quod, sunt dolorum a laboriosam labore
-        et numquam distinctio fugiat expedita ducimus at dolorem? Sit mollitia
-        rem quis inventore pariatur aspernatur sint! Quo in voluptates
-        voluptatem, molestiae quaerat, sapiente sit laborum inventore earum eius
-        hic excepturi labore exercitationem eaque, soluta dolorem aliquid!
-        Sapiente impedit voluptate, itaque maxime quia natus eius dolorum iure
-        neque repudiandae provident repellendus, dolor ad eos possimus. Ad
-        libero numquam quis mollitia voluptates enim aliquid, molestias sed
-        expedita quibusdam a tenetur consequatur provident dolore illo
-        reiciendis quam dolorum? Quod modi dolor totam voluptatem culpa quo
-        molestias voluptates quas debitis! Natus, omnis modi! Nulla veniam rem
-        corporis recusandae aut labore laudantium ullam at sunt quae nihil
-        debitis harum quod, error, nesciunt repellendus autem itaque. Iusto id
-        architecto, dicta officiis totam laboriosam modi aspernatur, impedit
-        praesentium dolorum pariatur repellendus ipsa distinctio culpa libero
-        molestias eaque labore quidem itaque placeat minus animi quod molestiae.
-        Laudantium itaque pariatur culpa nam adipisci? Nam optio dignissimos
-        nesciunt consectetur adipisci autem, animi ipsa, vitae, illo aliquam
-        harum? Fugit ipsam ullam ducimus distinctio? Possimus blanditiis magnam
-        sapiente enim quibusdam excepturi expedita consequuntur iste nostrum
-        asperiores esse ab est modi, harum sequi obcaecati reprehenderit, a
-        officia temporibus dolores exercitationem quisquam, quo consequatur!
-        Ullam laborum fugiat quam nobis in, magnam esse nam vero voluptatum
-        reprehenderit ratione nemo corporis sapiente accusamus pariatur?
-        Excepturi at maiores et laborum consectetur libero doloribus.
-        Asperiores, a unde. Voluptatibus magni alias facilis explicabo pariatur.
-        Necessitatibus nihil quas quibusdam maxime quisquam cupiditate alias
-        architecto optio esse iure quasi illo odit voluptatem assumenda,
-        consequuntur, possimus voluptate, porro qui rem adipisci tenetur velit!
-        Veritatis sint excepturi temporibus repellendus nam soluta quia quaerat
-        corporis illum nesciunt ullam molestiae tenetur suscipit, repellat,
-        magni maiores, ut quis a voluptatem. Quis, molestiae expedita
-        voluptatum, similique quae numquam culpa incidunt dolor aliquam nam nisi
-        accusantium facilis? Culpa architecto quis natus dicta optio fuga illo
-        harum, cupiditate, amet inventore aliquid non deleniti beatae quo vero,
-        nisi possimus impedit expedita ratione reiciendis distinctio molestiae
-        nulla. Repellat mollitia laborum quod sapiente neque placeat culpa, sint
-        delectus molestiae, harum voluptatibus corporis, nostrum amet sequi!
-        Fugit voluptatem consequuntur temporibus asperiores provident cumque
-        sunt tempora adipisci dolorem ipsam eligendi ex, odio voluptate totam
-        sit magni quo ullam ea eveniet necessitatibus! Omnis odit sunt quasi quo
-        provident tenetur. Incidunt minus, quidem, quos dolore suscipit earum
-        quisquam ipsum odio nesciunt veritatis debitis assumenda praesentium
-        iusto deleniti illo eos sit. Quod quaerat sunt pariatur est, iure enim
-        ullam dolorem fuga voluptatibus velit, odio hic obcaecati libero atque
-        quasi impedit. Hic, est. Veritatis mollitia debitis earum quo architecto
-        cum, voluptatem illo unde laboriosam distinctio recusandae magnam
-        accusamus dignissimos sint sit maiores, iste necessitatibus incidunt
-        iusto dolorem hic ipsa dicta! Exercitationem provident saepe similique
-        quidem reiciendis adipisci maxime accusamus eligendi non dignissimos a
-        consequuntur laudantium quis nisi totam ad tempore ipsum aut beatae,
-        voluptas quasi reprehenderit consectetur. Iure at dolorem fugit nulla
-        itaque quod eum cumque a veniam voluptates aliquam, et explicabo sequi
-        ratione deserunt hic pariatur odit repellendus illo! Suscipit, accusamus
-        veritatis esse praesentium quidem ea voluptate placeat id? Voluptate
-        dolor voluptatum libero! Asperiores voluptatibus ipsum ab id, laborum
-        inventore explicabo ipsam facilis. Cupiditate ad sapiente ratione
-        quaerat amet beatae explicabo itaque molestiae nobis saepe praesentium
-        in adipisci, blanditiis fuga! Molestias aliquid aut delectus, repellat
-        ipsam earum qui. Reiciendis hic impedit expedita tenetur perspiciatis
-        enim molestiae mollitia velit eligendi itaque. Facere quasi laborum
-        vitae porro, non provident modi molestiae tempora consectetur dolore
-        officia atque et, nesciunt culpa similique quidem! Doloremque eligendi
-        hic laborum illo, fugiat repellat repudiandae voluptatibus reiciendis,
-        facilis aspernatur sequi. Deserunt harum pariatur sunt assumenda ut
-        aperiam reiciendis repudiandae vel adipisci a qui, in magni
-        exercitationem! Laboriosam illum vero, aliquid velit tenetur ipsa
-        incidunt doloremque quas dolores placeat quos. Assumenda voluptates
-        labore aliquid facilis atque, maiores ratione, voluptatibus est
-        excepturi libero esse et! Deleniti quos illum itaque maiores inventore
-        perferendis assumenda id dignissimos debitis commodi, ratione cumque
-        veritatis molestias laborum, quaerat nemo tempora necessitatibus?
-        Laboriosam sapiente officiis neque necessitatibus reiciendis facere
-        inventore repudiandae temporibus sit debitis, aliquam suscipit autem,
-        iure id laudantium nihil magnam esse quibusdam a. Ab vero tempora error
-        vitae libero veniam ex quos, expedita minus quas illum nemo nisi
-        laudantium quasi dicta quibusdam dolore neque magni voluptatem rem
-        cumque corporis ipsam sunt possimus! Autem provident omnis asperiores
-        sed recusandae facere iste fuga! Temporibus, laborum fugiat dolore
-        impedit autem veniam eligendi nostrum exercitationem nam assumenda nisi
-        error aperiam, fugit repudiandae consectetur reprehenderit hic voluptas.
-        Facilis similique deleniti doloremque amet magnam quisquam sunt sit quas
-        corrupti, iure laboriosam adipisci illum saepe tenetur itaque architecto
-        fuga iusto. Repellendus distinctio eum adipisci aut voluptates
-        assumenda, molestias magni suscipit sequi dolore dignissimos ab eaque
-        dolor quo consectetur animi? Molestias veniam facere unde maxime? Amet
-        sequi, praesentium assumenda dolorum quisquam veniam animi quaerat
-        excepturi corporis consectetur incidunt necessitatibus vitae libero
-        dolor. Dicta, autem aspernatur quas minima illum ipsa fugiat tenetur
-        fugit eveniet magnam ullam ab dignissimos ex sint aut laborum quisquam.
-        Ipsum dolorem sequi, ut recusandae sunt ratione neque! Quis accusantium
-        impedit nisi neque sunt harum inventore quibusdam aspernatur cum veniam
-        magni ipsum omnis, labore explicabo dignissimos magnam blanditiis
-        eveniet ut minus fuga, aliquid a. Totam dolorum saepe in quis, porro
-        voluptate iure. Veniam nihil ad est consequatur sit molestiae maiores
-        architecto distinctio laborum illo exercitationem, nostrum sed minima!
-        Libero praesentium sapiente ad cupiditate laboriosam rerum tempore, nemo
-        beatae ipsa necessitatibus ratione! Rem molestias at unde natus aliquid?
-        In voluptates vel alias modi maxime! Cumque assumenda necessitatibus
-        dolore quas iste. In, repudiandae, animi possimus exercitationem libero
-        praesentium neque vel beatae deleniti iure accusamus? Inventore
-        voluptates nisi adipisci iure sapiente, iste, blanditiis nam deleniti
-        fugit impedit error minima! Aspernatur quis soluta, sint unde iste vero
-        ut laudantium corporis nulla sit! Harum molestias iste temporibus
-        nesciunt molestiae esse, quod doloribus, sunt ipsa dolores, in aperiam
-        laudantium accusantium rem cumque repudiandae porro hic nisi impedit!
-        Numquam unde culpa delectus. Ipsa quam sunt quasi eligendi esse
-        praesentium. Hic placeat velit veritatis recusandae veniam deleniti odit
-        distinctio libero eveniet in mollitia explicabo animi, quibusdam sint
-        blanditiis laborum beatae repudiandae voluptas perferendis illo, quam
-        fugiat! Molestiae minus voluptas sunt pariatur nihil corrupti unde
-        delectus dolores at ratione! Voluptatum velit molestias omnis optio id
-        ea quaerat ullam rem sequi numquam error facilis, dolores suscipit
-        aspernatur cumque dolor nam asperiores neque corporis quod culpa fugit.
-        Et quas veritatis placeat qui nesciunt impedit dolor fuga doloribus
-        reiciendis deserunt facere vel fugit, architecto asperiores nobis
-        ratione debitis recusandae neque perferendis sed laborum magni quidem
-        aspernatur voluptatum? At accusamus sit nemo ipsam, expedita officiis
-        consequatur maiores! Neque temporibus sunt quos repellat nihil, deserunt
-        optio ex, consequuntur rerum quidem iste! Reiciendis, sunt.
-      </p>
-      </div>
-    </div>
+    <main>
+      <PageBanner
+        img={headerBg}
+        title="About Us"
+        subHeading="Welcome to Devtraco Group, where we redefine real estate excellence with our commitment to quality, innovation, and sustainability."
+      />
+      <section className="py-16">
+        <div className="container mx-auto">
+          <div className="prose prose-slate min-w-full">
+            <p>
+              Devtraco Group is a property development company based in Accra,
+              Ghana. Our portfolio ranges from premium residential and
+              commercial properties targeting the high-end of themarket to
+              affordable housing developments for the middle and low segments of
+              the market. We harness the synergy gained from being present
+              across the entire real estate value chain- Design, Development,
+              Construction, Property Management and Hospitality - and the
+              yearsof experience of peerless expertise to deliver sustainable
+              developments that create valuefor clients, partners, investors and
+              residents.
+            </p>
+            <p>
+              For 30 years we at Devtraco have been pushing the limits of what
+              is possible in real estate development in Ghana. Having built a
+              solid foundation through the creation of sustainable communities,
+              we have expanded our orbit to serve every single segment of the
+              real estate market. We do not believe in short cuts. We believe in
+              ensuring quality at every single stage ofthe process from
+              conception to delivery.
+            </p>
+            <p>
+              This is why we want to bring our experience and expertise to a
+              larger clientbase than ever before through our expanded business
+              offering. This includes Devtraco Plus, a leading provider of
+              premium real estate in Accra and Fabrico Builders, the team behind
+              these spectacular developments. We have ventured into hospitality
+              with Landmark restaurants and property management with Talis
+              Property Management. Through Devtraco Foundation we are leaving a
+              positive impact in all the communities we operate in and beyond.
+            </p>
+            <p>
+              The past three years have tested the resolve of nations,
+              corporations and people the world over. The COVID-19 pandemic was
+              the biggest public health challenge in decades. This hasbeen
+              followed by a cost of living crisis and increased geopolitical
+              risks. In these unpredictable times it is prudent to do business
+              with the tried and tested, with those who have been weighed and
+              found whole.
+            </p>
+            <p>
+              As we present what makes us unique, we ask that you join us on our
+              mission to provide sustainable developments. Not only do we
+              believe that is the most judicious allocation of capital to be
+              made in these trying times but we also believe that is work worth
+              doing. We look forward to your partnership.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="py-20">
+        <div className="container mx-auto">
+          <div className="grid  lg:grid-cols-5 gap-11">
+            <div className="col-auto lg:col-span-2">
+              <div className="mb-14">
+                <span className="text-primary-purple">_Who We Are</span>
+                <h1 className="text-[2.5rem] font-bold text-devtraco-blue mb-4">
+                  Our Mission
+                </h1>
+                <p>
+                  Building exceptional communities, creating generational
+                  wealth, and changing lives for a better world.
+                </p>
+              </div>
+              <div className="my-4">
+                <span className="text-primary-purple">_Who We Are</span>
+                <h1 className="text-[2.5rem] font-bold text-devtraco-blue mb-4">
+                  Our Vision
+                </h1>
+                <p>
+                  To be the premier developer of sustainable developments by
+                  delivering attractive returns for our investors and partners
+                  and truly transforming experiences from developments we build
+                </p>
+              </div>
+              <div className="my-10">
+                <img
+                  src="../Rectangle-3089.jpg"
+                  alt="building"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+            <div className="col-auto lg:col-span-3">
+              <div className="mb-9">
+                <span className="text-primary-purple">_Who We Are</span>
+                <h1 className="text-[2.5rem] font-bold text-devtraco-blue">
+                  Our Core Competencies
+                </h1>
+              </div>
+              <div className="flex flex-col space-y-10">
+                <div className="flex items-start gap-4">
+                  <span className="bg-devtraco-blue w-[7.5rem] h-[7rem] flex items-center justify-center p-10">
+                    <svg
+                      className="flex-none w-[4.2rem] h-[4rem]"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 68 64"
+                      fill="none"
+                    >
+                      <path
+                        d="M67.4766 39.7529C66.925 40.3783 66.1573 40.6893 65.4616 41.0968C63.6258 42.1702 61.7725 43.2207 59.9314 44.2818C58.9055 44.8703 58.4242 44.7508 57.8233 43.7548C57.1417 42.6252 57.14 42.6217 55.9577 43.2927C54.6612 44.0306 53.3753 44.7877 52.0718 45.5097C51.659 45.7381 51.5342 45.905 51.7749 46.4022C52.0689 46.9943 52.2175 47.6481 52.2085 48.3092C52.1994 48.9702 52.0329 49.6196 51.7227 50.2035C51.4126 50.7874 50.9677 51.289 50.4251 51.6666C49.8824 52.0443 49.2575 52.2871 48.6022 52.3751C47.9523 52.4682 47.8416 52.751 47.752 53.271C47.4481 55.0435 46.4046 56.2574 44.6654 56.6281C43.7642 56.8196 43.4497 57.0778 43.2705 58.0089C42.8823 60.0327 40.92 61.3555 38.8787 61.171C38.5397 61.1394 38.3868 61.229 38.3043 61.5224C37.7017 63.7236 34.7012 64.9586 32.5334 63.0771C32.4474 62.996 32.3431 62.9367 32.2293 62.9043C32.1156 62.8719 31.9958 62.8673 31.8799 62.8909C29.7718 63.1825 28.5315 62.5009 27.6743 60.5843C27.6321 60.4495 27.5429 60.3343 27.423 60.2598C27.303 60.1853 27.1602 60.1565 27.0208 60.1785C25.9107 60.2565 24.8149 59.8925 23.9721 59.1659C23.1294 58.4393 22.608 57.409 22.5217 56.2996C22.4673 55.7076 22.0281 55.8183 21.7101 55.7585C19.8498 55.4072 18.6288 54.3268 18.2722 52.4998C18.1088 51.6618 17.7821 51.458 17.0197 51.307C14.9362 50.8959 13.5993 48.9828 13.7996 46.8413C13.8452 46.353 13.7451 46.0297 13.2725 45.775C12.2326 45.2111 11.2154 44.5998 10.207 43.9814C9.85569 43.7671 9.6642 43.7934 9.40596 44.1412C8.97556 44.721 8.47313 44.8106 7.84422 44.4522C5.44452 43.0819 3.05127 41.7005 0.664448 40.308C0.431725 40.1452 0.213645 39.9624 0.0126953 39.7617V38.7077C1.30917 36.4959 2.61266 34.2895 3.90035 32.0742C5.7824 28.8325 7.65625 25.5889 9.5219 22.3437C10.2246 21.128 10.6708 21.0173 11.9111 21.7288C14.0613 22.9632 16.2098 24.1994 18.3565 25.4373C19.4246 26.0521 19.5283 26.335 19.0592 27.4979C18.9275 27.8282 19.0469 27.8862 19.3298 27.8809C21.2622 27.837 23.1946 27.8036 25.127 27.7421C25.3652 27.7081 25.5937 27.625 25.7981 27.4979C26.5236 27.136 27.2421 26.7566 27.9641 26.3859C29.2272 25.7359 30.536 25.6534 31.727 26.4316C32.9568 27.2256 34.0319 27.4066 35.3143 26.5493C36.1927 25.959 37.2467 26.1242 38.241 26.4615C40.776 27.317 43.3232 28.1321 45.8494 29.0087C46.8613 29.3601 47.7818 29.2002 48.7182 28.7926C48.994 28.6732 49.0256 28.5414 48.8728 28.2955C48.6597 27.9638 48.465 27.6208 48.2895 27.2678C47.9698 26.609 48.0998 26.0557 48.734 25.6867C51.1548 24.2673 53.5861 22.8619 56.028 21.4706C56.7482 21.0613 57.3174 21.2615 57.7847 22.0608C59.234 24.5378 60.6657 27.0254 62.1028 29.5112C63.7822 32.4109 65.461 35.3125 67.1393 38.2158C67.2377 38.3914 67.3606 38.5408 67.4713 38.7041L67.4766 39.7529ZM29.2483 40.5821C28.4033 40.4644 27.4178 40.3748 26.4516 40.1851C26.1194 40.1275 25.8032 40.0001 25.5239 39.8114C25.2446 39.6226 25.0085 39.3768 24.8312 39.0901C24.6539 38.8033 24.5394 38.4823 24.4953 38.1481C24.4512 37.8138 24.4785 37.4741 24.5754 37.1512C24.9864 35.6053 25.4379 34.0716 25.8736 32.5345C26.0146 32.0135 26.2679 31.5297 26.6156 31.117C26.9634 30.7042 27.3973 30.3726 27.8868 30.1453C28.6159 29.794 29.3519 29.4426 30.0669 29.0579C30.3357 28.9156 30.8768 28.8717 30.7854 28.5309C30.6941 28.1901 30.1776 28.1795 29.7964 28.1795C29.4875 28.1872 29.1854 28.2723 28.918 28.4272C28.2364 28.7786 27.5443 29.1124 26.8679 29.4813C26.1296 29.8737 25.3043 30.0737 24.4682 30.0628C22.3601 30.0628 20.252 30.1348 18.144 30.1541C17.9491 30.1411 17.7548 30.1866 17.5861 30.2849C17.4173 30.3832 17.2818 30.5298 17.1971 30.7057C15.178 34.2192 13.1472 37.7292 11.1047 41.2356C10.8834 41.6151 10.9431 41.7978 11.3155 42.0068C12.3696 42.5953 13.4236 43.1944 14.4373 43.8356C14.8764 44.1114 15.1399 44.0639 15.4913 43.695C16.5219 42.6187 17.576 41.5647 18.6534 40.5329C19.9446 39.3032 21.4818 38.9518 23.1524 39.5737C24.7651 40.1833 25.6909 41.4007 25.8543 43.1364C25.8877 43.4877 25.9966 43.616 26.3567 43.6634C28.5702 43.9621 29.893 45.255 30.2215 47.4176C30.2795 47.8075 30.4464 47.9938 30.8381 48.0429C31.4284 48.1167 32.0784 48.1905 32.5018 48.5963C33.2765 49.3377 34.0688 49.3833 35.0402 49.0812C35.4601 48.9494 35.6463 48.8827 35.692 48.4066C35.7873 47.4499 36.215 46.557 36.9005 45.8829C37.5861 45.2089 38.4862 44.7965 39.4444 44.7175C39.8607 44.6858 39.9978 44.5576 40.0434 44.1412C40.1857 42.836 40.7813 41.7591 41.8933 41.0265C42.2868 40.7683 42.3096 40.6506 41.9179 40.3643C40.3227 39.2013 38.7206 38.0419 37.1747 36.8069C36.4579 36.2324 35.6779 36.048 34.8154 35.9759C34.0055 35.9074 33.4188 36.1938 33.0095 36.9052C32.5281 37.7397 32.0187 38.5601 31.5004 39.3647C31.0243 40.1534 30.3111 40.568 29.2448 40.5821H29.2483ZM34.4781 33.6746C35.6639 33.8081 36.8954 33.7361 37.8862 34.5231C41.7756 37.615 46.1165 40.1447 49.5368 43.8198C49.8003 44.1026 50.0076 44.1008 50.3291 43.9129C52.0138 42.9291 53.702 41.9488 55.4113 41.0072C55.9384 40.7209 55.9384 40.4802 55.6608 39.9936C53.9708 37.1231 52.3043 34.2397 50.6611 31.3434C50.352 30.8006 50.0656 30.6249 49.4736 30.9165C47.9294 31.6755 46.3782 31.6192 44.7585 31.0307C42.4133 30.1717 40.0153 29.4497 37.6507 28.6416C37.3754 28.5333 37.0804 28.484 36.7848 28.4967C36.4892 28.5094 36.1995 28.5839 35.9344 28.7154C33.619 29.8713 31.2984 31.0184 28.9725 32.1568C28.7596 32.2467 28.5689 32.382 28.4136 32.5531C28.2582 32.7242 28.142 32.9271 28.073 33.1476C27.6608 34.5776 27.2509 36.0087 26.8433 37.4411C26.7449 37.7819 26.8433 37.9804 27.2298 38.0208C27.7955 38.0787 28.3594 38.1701 28.9215 38.2579C29.1042 38.2977 29.295 38.2737 29.4621 38.1899C29.6293 38.1062 29.7627 37.9678 29.8403 37.7977C30.3269 36.965 30.8258 36.1393 31.3546 35.3382C32.0907 34.2174 33.1974 33.7642 34.4746 33.6746H34.4781ZM16.598 27.2116C16.5857 26.9902 16.4224 26.941 16.2976 26.8602C14.757 25.9731 13.2128 25.1035 11.6809 24.1953C11.3296 23.9915 11.1539 24.0424 10.9554 24.392C10.402 25.3881 9.81879 26.3684 9.24961 27.3556C7.14153 30.9979 5.03345 34.6396 2.92537 38.2808C2.70929 38.6497 2.67064 38.864 3.10104 39.1047C4.61769 39.9467 6.1197 40.8111 7.60707 41.6976C7.99706 41.9295 8.15517 41.8329 8.36246 41.4728C11.0327 36.8408 13.7105 32.2148 16.396 27.5946C16.4768 27.4628 16.5401 27.324 16.598 27.2116ZM64.7589 38.6637C64.708 38.5724 64.65 38.4547 64.5833 38.3405C61.8978 33.6922 59.2129 29.0427 56.5286 24.392C56.3249 24.0407 56.1439 24.002 55.8013 24.2041C54.2888 25.093 52.7692 25.9713 51.2338 26.8269C50.8702 27.0306 50.8509 27.2081 51.0476 27.5471C53.7565 32.2083 56.4584 36.873 59.1532 41.5413C59.3289 41.8592 59.4887 41.9225 59.8172 41.7292C61.3491 40.8298 62.895 39.9532 64.4357 39.066C64.5868 38.9817 64.7712 38.9185 64.7589 38.6637ZM21.6135 41.608C21.3865 41.5895 21.1581 41.6202 20.944 41.6982C20.73 41.7761 20.5353 41.8993 20.3733 42.0595C19.0785 43.3331 17.7733 44.5962 16.5243 45.9138C16.3531 46.0928 16.219 46.3039 16.1296 46.5348C16.0402 46.7658 15.9973 47.0122 16.0034 47.2598C16.0094 47.5074 16.0643 47.7513 16.1648 47.9777C16.2653 48.204 16.4096 48.4083 16.5893 48.5788C17.3306 49.3254 18.4637 49.415 19.2542 48.6701C20.5929 47.4105 21.8893 46.1035 23.1577 44.7772C23.7269 44.1834 23.7321 43.4069 23.4265 42.6849C23.1208 41.9629 22.513 41.5922 21.6135 41.608ZM26.8047 57.8807C27.0132 57.8965 27.2227 57.8687 27.4199 57.7991C27.6171 57.7296 27.7976 57.6197 27.9501 57.4766C29.3098 56.1468 30.6853 54.8275 31.9783 53.4361C32.6528 52.7124 32.5053 51.5441 31.8149 50.8695C31.1245 50.195 29.9615 50.072 29.2395 50.7466C27.8517 52.0466 26.5095 53.3992 25.199 54.7871C24.672 55.3562 24.6544 56.1239 24.9864 56.8231C25.3185 57.5223 25.9245 57.8912 26.8047 57.8807ZM37.981 49.097C37.9529 49.5379 38.2393 50.0368 38.6837 50.4725C39.6938 51.4774 40.7004 52.4875 41.7123 53.4906C41.953 53.7474 42.2158 53.9825 42.4976 54.1933C42.887 54.4677 43.3639 54.5886 43.837 54.5328C44.31 54.477 44.7458 54.2485 45.0607 53.8911C45.7107 53.1779 45.7827 52.0993 45.0975 51.3737C43.8169 50.021 42.4923 48.707 41.1414 47.4228C40.5634 46.8747 39.8063 46.8747 39.1001 47.1839C38.3938 47.4931 37.9968 48.0851 37.981 49.097ZM47.9136 50.137C48.792 50.137 49.391 49.7856 49.7248 49.0654C50.0902 48.2766 49.9795 47.5071 49.3734 46.88C48.1349 45.6099 46.8859 44.352 45.607 43.1223C45.4335 42.9446 45.2261 42.8036 44.9969 42.7077C44.7678 42.6119 44.5217 42.5631 44.2733 42.5645C44.0249 42.5658 43.7793 42.6171 43.5512 42.7153C43.3231 42.8136 43.1171 42.9568 42.9455 43.1364C42.7586 43.3071 42.6077 43.5137 42.5021 43.7438C42.3964 43.9739 42.3379 44.2229 42.3302 44.476C42.3225 44.7291 42.3657 44.9812 42.4572 45.2173C42.5487 45.4534 42.6867 45.6687 42.863 45.8505C44.0927 47.1295 45.3646 48.3662 46.6224 49.617C46.7891 49.7888 46.9905 49.9232 47.2131 50.0113C47.4357 50.0995 47.6744 50.1393 47.9136 50.1282V50.137ZM20.4435 51.4703C20.426 52.3944 20.7949 53.0145 21.538 53.3518C21.8954 53.532 22.3016 53.5914 22.6957 53.5211C23.0897 53.4507 23.4503 53.2545 23.7234 52.9618C24.9759 51.7321 26.2214 50.5024 27.4406 49.2481C27.6233 49.0729 27.7687 48.8627 27.868 48.6299C27.9673 48.3972 28.0185 48.1467 28.0185 47.8936C28.0185 47.6406 27.9673 47.3901 27.868 47.1573C27.7687 46.9246 27.6233 46.7143 27.4406 46.5392C27.2614 46.3525 27.0463 46.204 26.8083 46.1025C26.5703 46.0011 26.3142 45.9488 26.0554 45.9488C25.7967 45.9488 25.5406 46.0011 25.3025 46.1025C25.0645 46.204 24.8494 46.3525 24.6702 46.5392C23.4282 47.7425 22.2108 48.9793 20.9916 50.1985C20.8179 50.3596 20.6794 50.5551 20.5851 50.7725C20.4907 50.9899 20.4425 51.2246 20.4435 51.4616V51.4703ZM34.6889 52.3979C34.4465 52.9513 34.833 53.1164 35.3424 53.3202C36.0888 53.627 36.7043 54.1852 37.0826 54.8981C37.4608 55.6109 37.5779 56.4336 37.4136 57.2237C37.3625 57.3996 37.3618 57.5864 37.4114 57.7628C37.4611 57.9391 37.5592 58.098 37.6947 58.2215C38.5625 59.0893 39.7588 59.1613 40.5652 58.369C41.3715 57.5768 41.3662 56.3857 40.5037 55.5108C39.3355 54.3268 38.1514 53.1586 36.9744 51.9833C36.6648 51.6373 36.2392 51.4167 35.7781 51.3632C34.8013 51.2736 34.6959 51.3632 34.6889 52.3891V52.3979ZM33.923 55.3018C33.7629 55.2895 33.6021 55.3127 33.4521 55.3698C33.3021 55.4269 33.1665 55.5164 33.0551 55.632C32.0749 56.6018 31.0876 57.5645 30.1302 58.5553C29.8978 58.779 29.7618 59.0845 29.751 59.4069C29.7402 59.7293 29.8554 60.0433 30.0722 60.2821C30.1726 60.4071 30.2972 60.5106 30.4385 60.5864C30.5798 60.6622 30.7349 60.7087 30.8946 60.7233C31.0542 60.7379 31.2152 60.7202 31.3679 60.6713C31.5206 60.6223 31.6618 60.5432 31.7833 60.4385C32.9109 59.4664 33.9676 58.4149 34.9454 57.2922C35.2967 56.9022 35.2634 56.3892 35.0244 55.9324C34.9255 55.7288 34.7675 55.5596 34.571 55.4471C34.3745 55.3346 34.1487 55.284 33.923 55.3018ZM34.8944 61.6857C35.7869 61.698 36.4281 60.8337 36.1242 60.0432C36.0082 59.7411 35.8712 59.6444 35.6147 59.9062C35.2756 60.2575 34.9261 60.579 34.594 60.9268C34.4517 61.0779 34.1794 61.1991 34.2673 61.4451C34.3674 61.7174 34.6643 61.6664 34.8979 61.6857H34.8944Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M33.698 24.8049C31.2436 24.7909 28.8485 24.049 26.816 22.673C24.7835 21.2971 23.2049 19.349 22.2802 17.0754C21.3554 14.8018 21.1261 12.305 21.6211 9.90095C22.1162 7.49694 23.3134 5.29387 25.0613 3.57065C26.8091 1.84744 29.0289 0.681573 31.4397 0.220654C33.8505 -0.240265 36.3439 0.024487 38.6041 0.981399C40.8643 1.93831 42.7899 3.54435 44.1368 5.59618C45.4838 7.64802 46.1917 10.0534 46.1709 12.5078C46.1603 19.2958 40.5757 24.8049 33.698 24.8049ZM33.698 22.5106C39.3653 22.5247 43.8379 18.1188 43.8643 12.4832C43.8924 6.79837 39.4724 2.32396 33.7824 2.2941C28.138 2.26775 23.6829 6.71932 23.5933 12.3251C23.5037 17.9308 28.2381 22.6213 33.7016 22.5106H33.698Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M32.1939 16.0897C31.9983 16.0784 31.8078 16.0231 31.6366 15.9279C31.4653 15.8326 31.3178 15.7 31.2049 15.5398C30.4829 14.549 29.7486 13.5688 29.0459 12.5639C28.6348 11.9737 28.7472 11.2973 29.262 10.9337C29.7767 10.57 30.4161 10.6579 30.8729 11.2464C31.2769 11.7628 31.6722 12.2899 32.0323 12.838C32.2783 13.2122 32.4557 13.2842 32.8369 12.9627C34.2915 11.733 35.7795 10.5454 37.2516 9.3368C38.13 8.61654 38.7536 8.55154 39.2578 9.13829C39.762 9.72504 39.6214 10.3311 38.7308 11.0707C36.837 12.6289 34.9327 14.1731 33.0354 15.7243C32.7955 15.9238 32.5035 16.0506 32.1939 16.0897Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                  <div>
+                    <h4 className="text-devtraco-blue mb-3 text-[1.5rem] font-bold">
+                      Trusted Brand
+                    </h4>
+                    <p className="w-full max-w-lg">
+                      Devtraco is a name synonymous with trust in Ghana's real
+                      estate market. A brand built through 30 years of
+                      excellence and maintained through industry-leading
+                      innovation year after year.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <span className="bg-devtraco-blue w-[7.5rem] h-[7rem] flex items-center justify-center p-10">
+                    <svg
+                      className="flex-none w-[4.2rem] h-[4rem]"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 63 64"
+                      fill="none"
+                    >
+                      <path
+                        d="M40.3389 64C38.4837 63.708 36.6685 63.2909 34.9301 62.5418C32.4328 61.4687 30.1926 59.8763 28.3584 57.8704C27.8195 57.2848 27.7862 56.7126 28.2466 56.2754C28.7071 55.8383 29.316 55.8967 29.8783 56.5107C32.7262 59.6172 36.2598 61.4707 40.4307 61.9212C45.9196 62.5135 50.6728 60.8201 54.5634 56.8744C57.101 54.3018 58.5958 51.1886 59.1481 47.6333C59.4772 45.488 59.3785 43.2988 58.8578 41.1918C58.791 40.9515 58.7386 40.7075 58.7009 40.461C58.6309 39.8554 58.9345 39.4083 59.4784 39.2848C59.9572 39.1747 60.4544 39.465 60.6362 40.0089C60.9493 40.9801 61.1552 41.9826 61.2502 42.9986C61.7507 47.8102 60.6429 52.2297 57.8034 56.1487C54.5884 60.5865 50.2206 63.1791 44.7668 63.9199C44.6655 63.9395 44.5657 63.9663 44.4681 64H40.3389Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M52.581 37.0626C53.1527 37.8428 53.6594 38.6686 54.0959 39.5318C54.9886 41.3834 55.4279 43.4208 55.3776 45.4757C55.3274 47.5307 54.7888 49.5442 53.8066 51.3499C52.8244 53.1556 51.4266 54.7017 49.7288 55.8604C48.0309 57.0192 46.0818 57.7573 44.0423 58.0139C41.164 58.4064 38.2384 57.7961 35.7572 56.2855C35.6485 56.2239 35.5433 56.1565 35.4419 56.0836C34.9414 55.7049 34.8129 55.1927 35.1082 54.7206C35.1738 54.6068 35.2614 54.5074 35.3661 54.4282C35.4707 54.3489 35.5901 54.2914 35.7173 54.259C35.8445 54.2267 35.9769 54.2202 36.1067 54.2398C36.2365 54.2595 36.361 54.305 36.4729 54.3735C37.3755 54.8942 38.3299 55.3192 39.3208 55.6415C45.6272 57.5134 52.2106 53.3425 53.2066 46.8359C53.6536 43.9713 52.9458 41.0463 51.2387 38.703C49.5315 36.3596 46.9644 34.7892 44.1007 34.3365C37.9861 33.3638 32.1552 37.785 31.5162 43.9329C31.2443 46.5589 31.8098 49.0214 33.308 51.237C33.8719 52.0712 33.8786 52.6668 33.3347 53.0489C32.7908 53.4309 32.2019 53.2157 31.6163 52.3598C30.5563 50.8044 29.8596 49.0306 29.5776 47.1695C29.4975 46.669 29.2589 46.6056 28.8502 46.7191C27.7324 47.0294 27.4888 47.3531 27.4888 48.5376C27.4888 49.3084 27.4888 50.0775 27.4888 50.8483C27.4704 52.6251 26.1824 53.9014 24.3906 53.9131C22.9525 53.9231 21.5138 53.9231 20.0746 53.9131C18.2627 53.9014 16.9764 52.6384 16.9264 50.8132C16.9013 49.8973 16.898 48.978 16.9264 48.0654C16.9464 47.3981 16.571 47.1078 16.0221 46.8843C15.4465 46.649 14.9143 46.5139 14.4121 47.0277C13.7698 47.6834 13.1225 48.3324 12.4635 48.9697C11.1588 50.2377 9.42373 50.2543 8.10406 48.9897C7.05299 47.9787 6.02027 46.9488 5.0059 45.8999C3.73961 44.5953 3.75296 42.8451 5.02092 41.5505C5.63154 40.9265 6.24383 40.2975 6.87948 39.6986C7.45173 39.1614 7.37999 38.6058 7.10304 37.9468C6.8361 37.3229 6.43569 37.0376 5.76835 37.0542C4.95418 37.0743 4.14169 37.0542 3.32753 37.0542C1.39056 37.0542 0.117596 35.8864 0.0508617 33.9661C0.000810781 32.5113 -0.000857582 31.0515 0.0508617 29.5967C0.117596 27.7615 1.37054 26.5669 3.23744 26.5152C4.13335 26.4902 5.03259 26.4818 5.92684 26.5152C6.6726 26.5436 6.91618 26.0564 7.1681 25.4992C7.42002 24.9419 7.4317 24.4714 6.97123 24.0243C6.32725 23.4004 5.69271 22.7675 5.06763 22.1257C3.71792 20.7427 3.73294 19.0109 5.08765 17.6412C6.08867 16.6401 7.08969 15.6391 8.09071 14.6381C9.37535 13.3752 11.1488 13.3635 12.4535 14.6097C13.1208 15.2437 13.7698 15.891 14.4005 16.5517C14.8676 17.0355 15.3548 17.0239 15.932 16.7619C16.5093 16.5 16.9564 16.2414 16.9247 15.504C16.8863 14.6314 16.903 13.7572 16.9247 12.883C16.9597 11.1062 17.9724 9.87993 19.7376 9.72477C21.4604 9.55265 23.1965 9.55992 24.9178 9.74646C26.411 9.9133 27.4604 11.1612 27.4871 12.6611C27.5038 13.5987 27.5105 14.5347 27.4871 15.4723C27.4721 16.1113 27.7891 16.455 28.3463 16.6969C28.9586 16.9621 29.5142 17.1206 30.0564 16.5584C30.6637 15.9278 31.2993 15.3255 31.9116 14.7015C32.3904 14.2127 32.9343 13.839 33.6267 13.7522C33.9954 13.7055 34.0471 13.4869 34.0454 13.1866C34.0454 12.1256 34.0454 11.0639 34.0454 10.0017C34.0454 9.25263 34.4108 8.79883 35.0014 8.77714C35.5553 8.75712 35.9641 9.17588 36.0441 9.87493C36.0748 10.1859 36.087 10.4984 36.0809 10.8109C36.0809 16.8454 36.0925 22.8815 36.0809 28.9176C36.0809 30.269 36.3294 31.5153 37.1202 32.6348C37.3688 32.9884 37.6024 33.1069 38.0545 32.9484C41.3462 31.7939 44.5995 31.934 47.7878 33.3488C48.1665 33.5156 48.345 33.5524 48.3333 33.0368C48.3271 32.3031 48.5365 31.5838 48.9356 30.9681C49.1024 30.7011 49.1341 30.546 48.8405 30.3007C46.8552 28.669 46.6232 26.4434 48.2165 24.4264C48.4117 24.1795 48.4301 24.0043 48.2165 23.7857C46.8451 22.3693 46.8134 19.8618 48.2549 18.3919C48.4451 18.1967 48.4067 18.0416 48.2449 17.8547C47.1421 16.5667 46.8852 15.1319 47.5125 13.5503C47.6993 13.0799 47.3323 13.19 47.1188 13.19C45.7624 13.18 44.4077 13.19 43.0513 13.19C41.488 13.19 40.809 12.5009 40.8073 10.9393C40.8073 9.48286 40.8207 8.02638 40.8073 6.56823C40.7773 4.13075 39.139 2.33059 36.7532 2.03362C36.2193 1.96688 36.0859 2.15707 36.0859 2.62922C36.0992 3.33661 36.0992 4.04455 36.0859 4.75305C36.0895 5.06486 36.0576 5.37608 35.9908 5.68066C35.946 5.91035 35.8153 6.11428 35.6251 6.25074C35.435 6.38719 35.2 6.44586 34.9681 6.41474C34.4675 6.37136 34.0838 6.06605 34.0705 5.53551C34.0421 4.3076 34.0154 3.07634 34.0838 1.85343C34.1389 0.890786 35.0565 0.0866355 36.0074 0.0182326C39.4676 -0.253711 42.6058 2.55248 42.7827 6.02434C42.8544 7.44078 42.8227 8.86056 42.8444 10.2687C42.8561 11.1412 42.8444 11.1446 43.7036 11.1446C48.6676 11.1446 53.6309 11.1446 58.5938 11.1446C60.9094 11.1446 62.5478 12.5343 62.8331 14.8033C62.9005 15.3329 62.8501 15.8709 62.6854 16.3788C62.5208 16.8867 62.2459 17.352 61.8804 17.7413C61.6118 18.0399 61.6202 18.2101 61.8638 18.5171C63.2135 20.2154 63.1984 22.1174 61.8487 23.7624C61.6385 24.016 61.6068 24.1578 61.8254 24.4381C63.6239 26.7404 63.05 29.3731 60.449 30.7562C60.1153 30.933 60.1253 31.0748 60.2504 31.3801C61.445 34.2798 59.5714 37.0526 56.4249 37.0643C55.1703 37.0659 53.9273 37.0626 52.581 37.0626ZM34.0404 23.1768C34.0404 20.9295 34.0404 18.6822 34.0404 16.4349C34.0404 16.2297 34.1856 15.9244 33.8986 15.8327C33.6634 15.7559 33.4916 15.9995 33.3297 16.1563C32.6624 16.8153 32.0117 17.491 31.3277 18.1367C30.4284 18.9959 29.3507 19.1811 28.1962 18.8157C26.8615 18.3936 25.762 17.7079 25.5168 16.168C25.3416 15.0719 25.4701 13.9674 25.4283 12.868C25.3983 12.0672 25.083 11.7268 24.2822 11.7185C22.9063 11.7051 21.5305 11.7051 20.1546 11.7185C19.3672 11.7185 18.9868 12.1222 18.9868 12.9297C18.9768 13.7839 18.9868 14.6364 18.9868 15.489C18.9868 16.9605 18.2994 17.9531 16.9497 18.5521C15.4966 19.1961 14.1636 19.1761 12.974 18.0132C12.3651 17.4159 11.7695 16.8036 11.1588 16.2064C10.4915 15.554 10.0694 15.549 9.3987 16.2064C8.46108 17.1256 7.53514 18.0549 6.61087 18.9859C5.93184 19.6699 5.94352 20.0937 6.61087 20.7877C7.27821 21.4817 8.01897 22.1541 8.65294 22.8948C9.694 24.1094 9.47378 25.4241 8.84314 26.7471C8.27478 27.935 7.33438 28.5423 6.02194 28.5689C5.12602 28.5873 4.22845 28.5689 3.33253 28.5689C2.48334 28.5773 2.10128 28.946 2.09461 29.7802C2.08571 31.1316 2.08571 32.4835 2.09461 33.836C2.09461 34.6702 2.42828 34.9938 3.27748 35.0038C4.08997 35.0172 4.90247 35.0038 5.71663 35.0038C7.36497 35.0038 8.46109 35.7679 9.05336 37.3262C9.64562 38.8844 9.44542 39.9789 8.24086 41.1851C7.66694 41.759 7.08302 42.3246 6.51911 42.9085C5.9552 43.4925 5.96021 43.9329 6.49909 44.4818C7.48787 45.4951 8.48889 46.4961 9.50215 47.4849C10.0293 48.0021 10.5515 47.9954 11.0921 47.4849C11.6326 46.9743 12.1281 46.4605 12.6437 45.945C14.1452 44.4434 15.0545 44.2666 17.0148 45.1108C18.3161 45.668 18.9651 46.669 18.9835 48.0888C18.9918 48.9831 18.9835 49.8773 18.9835 50.7715C18.9935 51.509 19.3171 51.8526 20.0495 51.861C21.4877 51.8777 22.9264 51.8777 24.3656 51.861C25.113 51.861 25.4133 51.539 25.425 50.7815C25.4384 49.9073 25.415 49.0331 25.435 48.1605C25.4584 47.016 25.8388 46.0284 26.8565 45.4027C27.4535 45.0164 28.1246 44.759 28.8268 44.647C29.2673 44.5902 29.4107 44.4334 29.4591 44.0013C29.9179 39.8971 31.8365 36.6605 35.275 34.3365C35.5753 34.1329 35.582 33.9778 35.3868 33.6925C34.4416 32.3092 33.966 30.6586 34.0304 28.9844C34.0738 27.0474 34.0404 25.1104 34.0404 23.1768ZM55.0618 19.1844C53.7905 19.1844 52.5192 19.1727 51.248 19.1844C50.0467 19.1977 49.2659 19.9252 49.2359 21.0196C49.2025 22.1474 49.9633 23.0683 51.1128 23.09C53.6954 23.1379 56.2792 23.1379 58.864 23.09C59.1263 23.0884 59.3857 23.0342 59.6267 22.9307C59.8677 22.8272 60.0856 22.6764 60.2674 22.4873C60.4492 22.2982 60.5912 22.0746 60.6852 21.8297C60.7791 21.5847 60.823 21.3235 60.8144 21.0613C60.7893 19.9869 59.9268 19.1877 58.7489 19.1761C57.5227 19.1744 56.2914 19.1827 55.0635 19.1844H55.0618ZM55.0201 13.2033C53.7505 13.2033 52.4792 13.1933 51.2079 13.2033C50.0401 13.2133 49.2292 14.0175 49.2292 15.152C49.2292 16.2865 50.0451 17.114 51.2062 17.1223C53.7277 17.1379 56.2486 17.1379 58.7689 17.1223C59.9568 17.1223 60.831 16.2347 60.8093 15.1203C60.7877 14.0058 59.9284 13.21 58.7706 13.2C57.5227 13.195 56.2781 13.2033 55.0201 13.2033ZM54.9884 29.0244C56.2998 29.0244 57.6128 29.0528 58.9224 29.0144C59.4326 29.0144 59.9219 28.8117 60.2826 28.451C60.6434 28.0902 60.846 27.601 60.846 27.0908C60.846 26.5806 60.6434 26.0913 60.2826 25.7306C59.9219 25.3698 59.4326 25.1672 58.9224 25.1672C56.2998 25.1355 53.6754 25.1571 51.0527 25.1672C50.6947 25.1639 50.3446 25.273 50.0517 25.4791C49.7087 25.721 49.4504 26.0646 49.3133 26.4612C49.1762 26.8579 49.1672 27.2877 49.2876 27.6897C49.3936 28.0643 49.6158 28.3954 49.9223 28.6353C50.2288 28.8752 50.6037 29.0115 50.9927 29.0244C52.329 29.0494 53.6621 29.0244 54.9951 29.0244H54.9884ZM54.4879 35.0105C55.1553 35.0105 55.8226 35.0105 56.49 35.0105C57.6895 34.9955 58.5203 34.2798 58.5737 33.2254C58.6321 32.0675 57.8864 31.1549 56.6851 31.0999C55.2086 31.0331 53.7255 31.0298 52.249 31.0999C51.0494 31.1599 50.317 32.0809 50.3854 33.2454C50.4455 34.2731 51.2696 34.9905 52.4275 35.0055C53.1132 35.0172 53.8005 35.0088 54.4879 35.0105Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M36.5011 43.6026C36.8965 43.5575 37.1685 43.8178 37.4204 44.1031C38.5032 45.3343 39.5959 46.5639 40.672 47.8135C40.9423 48.1305 41.0725 48.1639 41.3678 47.8235C43.253 45.6547 45.1649 43.5125 47.0702 41.3636C47.2438 41.1562 47.4299 40.9595 47.6275 40.7747C47.8062 40.5959 48.0467 40.4925 48.2995 40.486C48.5522 40.4795 48.7978 40.5703 48.9855 40.7397C49.1805 40.9024 49.3031 41.1358 49.3266 41.3887C49.35 41.6416 49.2724 41.8935 49.1106 42.0894C48.6351 42.695 48.1096 43.2572 47.6091 43.8395C45.7339 45.9616 43.8575 48.081 41.98 50.1976C41.3544 50.9033 40.7421 50.94 40.1315 50.2543C38.68 48.621 37.2469 46.9693 35.8104 45.3243C35.5151 44.9907 35.39 44.6053 35.5852 44.1715C35.6572 43.9914 35.7849 43.839 35.9497 43.7366C36.1145 43.6343 36.3077 43.5873 36.5011 43.6026Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M22.172 41.6873C20.0414 41.6976 17.9652 41.0142 16.2572 39.7405C14.5492 38.4668 13.302 36.6718 12.7041 34.6267C12.4571 33.7842 12.6624 33.227 13.293 33.0368C13.8969 32.8549 14.3758 33.2186 14.6544 34.0628C15.622 36.9908 17.5907 38.8561 20.6188 39.51C25.5505 40.5728 30.1602 36.7489 30.0834 31.6988C30.0233 27.7464 27.2939 24.5799 23.2515 24.0059C19.516 23.4754 15.9991 25.6326 14.7345 29.2913C14.6661 29.4882 14.6177 29.6917 14.5409 29.8836C14.3007 30.4909 13.8052 30.7495 13.2613 30.5643C12.7174 30.3791 12.4588 29.8652 12.629 29.258C13.3781 26.5886 14.9347 24.5198 17.3705 23.1701C23.5985 19.7233 31.3147 23.6456 32.0821 30.7078C32.7812 37.1593 27.5225 41.8725 22.172 41.6873Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M16.8849 31.8106C16.8849 28.7675 19.2206 26.4835 22.3021 26.4918C23.7139 26.5024 25.0641 27.0719 26.0572 28.0755C27.0502 29.0792 27.6052 30.4354 27.6008 31.8473C27.5824 34.7603 25.0982 37.1994 22.1703 37.1861C20.7572 37.172 19.4074 36.5982 18.4167 35.5906C17.4259 34.583 16.8751 33.2237 16.8849 31.8106ZM22.2437 35.119C22.6815 35.1199 23.1152 35.0334 23.5191 34.8645C23.923 34.6956 24.2892 34.4476 24.596 34.1352C24.9028 33.8228 25.144 33.4523 25.3056 33.0454C25.4673 32.6384 25.5459 32.2033 25.537 31.7655C25.537 29.9854 23.9854 28.4488 22.2203 28.4672C20.4135 28.4855 18.8402 30.0571 18.8636 31.8223C18.8819 32.7053 19.2466 33.5458 19.8789 34.1624C20.5112 34.7791 21.3605 35.1226 22.2437 35.119Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                  <div>
+                    <h4 className="text-devtraco-blue mb-3 text-[1.5rem] font-bold">
+                      Vertically Integrated
+                    </h4>
+                    <p className="w-full max-w-lg">
+                      We are a full solution provider to our clients from
+                      design, development, construction and property management.
+                      At every step, we leverage our expertise and experience to
+                      ensure that our clients get unparalleled product and
+                      service quality.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <span className="bg-devtraco-blue w-[7.5rem] h-[7rem] flex items-center justify-center p-10">
+                    <svg
+                      className="flex-none w-[4.2rem] h-[4rem]"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 64 64"
+                      fill="none"
+                    >
+                      <path
+                        d="M0.552049 63.9323C-0.0212898 63.5389 -0.0979574 63.0156 0.137045 62.3989C1.02372 60.0656 1.89706 57.7322 2.79207 55.4072C3.07707 54.6638 3.60708 54.3922 4.18042 54.6355C4.75376 54.8788 4.94209 55.4238 4.66709 56.1539C4.00042 57.9239 3.33374 59.6972 2.65207 61.4572C2.47207 61.9156 2.5704 62.0272 3.04541 62.0256C5.81043 62.0106 8.57546 62.0256 11.3405 62.0256H60.3593C60.526 62.0256 60.6926 62.0106 60.8593 62.0256C61.371 62.0822 61.526 61.9489 61.3093 61.4122C60.6426 59.7139 60.011 57.9955 59.3626 56.2855C57.3343 50.9438 55.2909 45.6087 53.2909 40.257C53.0476 39.6037 52.7392 39.3803 52.0426 39.387C48.2181 39.4215 44.393 39.4215 40.5674 39.387C39.7924 39.387 39.2341 39.5387 38.9458 40.2887C38.8341 40.572 38.4224 40.8237 38.5574 41.082C38.6924 41.3404 39.1258 41.1754 39.4258 41.1854C40.1108 41.2037 40.7974 41.1854 41.4841 41.1854C42.2091 41.1854 42.4991 41.4087 42.6408 42.1354C43.1875 44.9254 43.7141 47.7204 44.2491 50.5121C44.3141 50.8588 44.3875 51.2038 44.4391 51.5538C44.4706 51.6964 44.4696 51.8443 44.4363 51.9865C44.403 52.1287 44.3382 52.2616 44.2467 52.3755C44.1552 52.4894 44.0394 52.5813 43.9077 52.6444C43.776 52.7076 43.6319 52.7404 43.4858 52.7405C43.3191 52.7522 43.1525 52.7405 42.9858 52.7405H20.9706C19.6956 52.7405 19.3772 52.3638 19.6122 51.1021C20.1556 48.2054 20.7039 45.3099 21.2573 42.4154C21.4523 41.3904 21.7073 41.1604 22.7573 41.1187C23.4639 41.0904 24.1706 41.1187 24.8773 41.1037C25.479 41.0937 25.5023 41.0404 25.1873 40.507C25.1752 40.4902 25.1646 40.4724 25.1556 40.4537C24.8223 39.5787 24.1906 39.352 23.2573 39.367C19.4539 39.4253 15.6489 39.402 11.8438 39.3787C11.2638 39.3787 10.9622 39.527 10.7488 40.102C9.33714 43.8871 7.89546 47.6504 6.46377 51.4188C6.37263 51.6946 6.25833 51.9622 6.1221 52.2188C5.8421 52.6888 5.4171 52.8672 4.89709 52.6521C4.37709 52.4371 4.16375 52.0221 4.29709 51.4855C4.43686 51.0075 4.6038 50.5378 4.79709 50.0788C6.25044 46.2599 7.70379 42.4359 9.15713 38.607C9.57547 37.507 9.74881 37.3753 10.9472 37.3737C14.5861 37.3737 18.2244 37.3737 21.8623 37.3737C22.0489 37.3737 22.2356 37.3737 22.4239 37.3737C23.1156 37.3637 23.1523 37.3103 22.7906 36.7353C21.1756 34.1653 19.5722 31.5886 17.9289 29.0386C16.4672 26.7736 15.1772 24.4535 14.5655 21.7868C12.2922 11.8767 18.9122 1.95331 28.9607 0.254965C38.6858 -1.38672 47.8858 5.06835 49.5742 14.7551C50.3509 19.2118 49.5309 23.3985 47.1508 27.2552C45.1742 30.4569 43.1508 33.6253 41.1508 36.812C41.0441 36.9787 40.8091 37.1453 40.9124 37.3503C41.0158 37.5553 41.2925 37.4453 41.4875 37.4453C45.3542 37.452 49.2209 37.452 53.0876 37.4453C54.3076 37.4453 54.4026 37.5103 54.8242 38.6203C57.7854 46.4282 60.7504 54.2355 63.7193 62.0422C63.786 62.2173 63.861 62.3872 63.9327 62.5606C63.9327 63.0173 64.111 63.6506 63.8827 63.8823C63.6543 64.1139 63.0193 63.9323 62.5627 63.9323H0.552049ZM16.1739 17.7818C16.1542 20.8347 17.0228 23.8273 18.6739 26.3952C21.5239 30.9119 24.3723 35.4303 27.219 39.9504C28.5273 42.0237 29.8307 44.1021 31.1507 46.1688C31.639 46.9321 32.3174 46.9204 32.8307 46.1688C32.9007 46.0654 32.9674 45.9604 33.034 45.8554C37.1574 39.3154 41.2797 32.7747 45.4008 26.2336C47.4391 23.0456 48.2357 19.22 47.6392 15.4834C46.3358 6.68503 37.9174 0.661636 29.2007 2.24498C25.5555 2.90401 22.2563 4.8189 19.876 7.65712C17.4957 10.4953 16.1847 14.0776 16.1705 17.7818H16.1739ZM31.9907 50.7821H41.5341C41.8675 50.7821 42.2625 50.8488 42.1558 50.2971C41.7325 48.0754 41.2991 45.8537 40.8824 43.6304C40.8108 43.2554 40.6324 43.1171 40.2474 43.1304C39.3958 43.1554 38.5424 43.1571 37.6908 43.1304C37.5166 43.1143 37.3416 43.1515 37.189 43.2368C37.0364 43.3222 36.9132 43.4519 36.8357 43.6087C36.0974 44.8137 35.3357 46.0037 34.5824 47.2004C33.249 49.3154 30.7307 49.3154 29.399 47.2004C28.6457 46.0037 27.884 44.8137 27.1456 43.6087C27.0682 43.4519 26.945 43.3222 26.7924 43.2368C26.6397 43.1515 26.4648 43.1143 26.2906 43.1304C25.4806 43.1571 24.6673 43.1771 23.8589 43.1304C23.3073 43.0954 23.1423 43.3454 23.0556 43.8237C22.6839 45.8854 22.2873 47.9454 21.9006 50.0055C21.7523 50.7905 21.7523 50.7938 22.5673 50.7938L31.9907 50.7821Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M38.3541 60.2322H19.5206C18.2855 60.2322 17.9655 59.8389 18.1872 58.6206C18.3855 57.6422 18.5522 56.6605 18.7439 55.6839C18.9105 54.7605 19.1922 54.5355 20.1322 54.5355H55.7992C56.7209 54.5355 56.8943 54.6555 57.2276 55.5189C57.6226 56.5472 58.0176 57.5739 58.4026 58.6056C58.8043 59.6789 58.4026 60.2339 57.2493 60.2339L38.3541 60.2322ZM38.1607 58.2756H55.1826C55.3709 58.2756 55.5576 58.2756 55.7442 58.2756C55.8826 58.2756 56.0276 58.1922 55.9842 58.0556C55.8476 57.5777 55.6697 57.1126 55.4526 56.6655C55.2859 56.3655 54.9209 56.4989 54.6442 56.4989C43.6708 56.4922 32.6968 56.4922 21.7222 56.4989C20.6522 56.4989 20.6522 56.4989 20.4522 57.5222C20.3039 58.2822 20.3039 58.2839 21.0772 58.2839L38.1607 58.2756Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M13.0024 52.7472C11.7991 52.7472 10.5941 52.7472 9.38908 52.7472C8.48074 52.7388 8.0424 52.1421 8.3574 51.3005C9.52408 48.1904 10.7058 45.0904 11.8791 41.9837C12.0758 41.462 12.4241 41.167 12.9941 41.1504C14.7991 41.0954 16.6058 41.072 18.4108 41.1604C19.3225 41.2054 19.6508 41.702 19.4842 42.5837C18.9186 45.5838 18.3536 48.5782 17.7892 51.5671C17.6075 52.5238 17.3392 52.7488 16.3675 52.7505L13.0024 52.7472ZM13.2708 50.7888C13.9775 50.7888 14.6825 50.7788 15.3891 50.7888C15.7225 50.7888 15.8991 50.6638 15.9575 50.3488C16.3808 48.1077 16.8042 45.866 17.2275 43.6237C17.2875 43.3021 17.2425 43.1237 16.8392 43.1237C15.9058 43.1471 14.9708 43.1387 14.0358 43.1237C13.9097 43.1094 13.7827 43.1415 13.6785 43.2138C13.5742 43.2862 13.4998 43.3939 13.4691 43.5171C12.6024 45.8093 11.7313 48.0993 10.8558 50.3871C10.7441 50.6838 10.8241 50.8055 11.1508 50.8005C11.8574 50.7805 12.5641 50.7905 13.2708 50.7888Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M50.9821 52.7471C49.7971 52.7471 48.6121 52.7471 47.4271 52.7471C46.6921 52.7471 46.3921 52.5355 46.2504 51.8121C45.637 48.6754 45.0382 45.5365 44.4537 42.3954C44.327 41.7104 44.757 41.1987 45.4537 41.1937C47.3254 41.177 49.1954 41.1937 51.0654 41.1937C51.6754 41.1937 51.9321 41.582 52.1204 42.0837C53.0838 44.6282 54.051 47.1715 55.0221 49.7138C55.2221 50.2388 55.4288 50.7604 55.6138 51.2888C55.9122 52.1471 55.5038 52.7421 54.5988 52.7521C53.3855 52.7555 52.1871 52.7471 50.9821 52.7471ZM50.7004 50.7905C51.3854 50.7905 52.0721 50.7788 52.7571 50.7905C53.1338 50.7988 53.2405 50.6971 53.0905 50.3204C52.2271 48.0715 51.3721 45.8204 50.5254 43.567C50.4892 43.4274 50.4031 43.3058 50.2833 43.2253C50.1635 43.1449 50.0184 43.1111 49.8754 43.1304C48.9821 43.1487 48.0871 43.1587 47.1954 43.1304C46.7354 43.1137 46.6754 43.307 46.7487 43.687C47.1698 45.886 47.586 48.086 47.9971 50.2871C48.0671 50.6638 48.2604 50.8054 48.6387 50.7871C49.3288 50.7754 50.0154 50.7905 50.7004 50.7905Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M10.8019 60.2323C9.38692 60.2323 7.96858 60.2323 6.56023 60.2323C5.62355 60.2323 5.20355 59.6273 5.52688 58.7406C5.93856 57.6056 6.38523 56.4856 6.80356 55.3506C7.02023 54.7689 7.40524 54.5172 8.03691 54.5172C10.6353 54.5355 13.2353 54.5172 15.8337 54.5272C16.7353 54.5272 17.112 54.9906 16.9503 55.8839C16.747 57.0072 16.5342 58.1289 16.312 59.2489C16.1653 59.9823 15.867 60.2189 15.1053 60.2223C13.6703 60.2373 12.2353 60.2323 10.8019 60.2323ZM11.2186 58.2756C11.9253 58.2756 12.6303 58.2889 13.3353 58.2756C14.5203 58.2489 14.372 58.5306 14.6686 57.1989C14.8003 56.5972 14.612 56.4756 14.0653 56.4856C12.6336 56.5089 11.2019 56.4856 9.77026 56.4972C8.28858 56.5122 8.68692 56.2722 8.09024 57.6889C7.91524 58.1039 7.98191 58.2989 8.48358 58.2856C9.38526 58.2589 10.3036 58.2756 11.2186 58.2756Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M32.0022 28.1703C27.0522 28.3503 21.6054 24.2469 21.6221 17.8035C21.6404 11.4084 27.0438 7.45507 32.0039 7.46174C36.9639 7.46841 42.3523 11.4368 42.3523 17.8352C42.3523 24.2336 36.9756 28.3303 32.0022 28.1703ZM40.314 17.8918C40.414 13.8285 37.2273 9.50676 31.9972 9.49676C26.8488 9.4851 23.6905 13.7051 23.6455 17.7468C23.6021 21.9236 26.8472 26.1953 32.0089 26.1719C37.2356 26.1486 40.3573 21.8652 40.314 17.8918Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M31.9411 24.4269C30.1965 24.4229 28.5242 23.7293 27.2891 22.4972C26.0539 21.2652 25.356 19.5947 25.3477 17.8501C25.3477 14.1834 28.3094 11.2384 32.0344 11.2434C33.7792 11.2456 35.4522 11.9385 36.6877 13.1705C37.9232 14.4026 38.6207 16.0737 38.6278 17.8185C38.6378 21.4952 35.6661 24.4319 31.9411 24.4269ZM27.406 17.8368C27.406 20.3702 29.506 22.4735 32.0061 22.4435C33.2133 22.4206 34.3634 21.9249 35.209 21.063C36.0547 20.2011 36.5285 19.0418 36.5285 17.8343C36.5285 16.6268 36.0547 15.4676 35.209 14.6057C34.3634 13.7438 33.2133 13.2481 32.0061 13.2251C29.4927 13.2051 27.4043 15.3018 27.406 17.8368Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                  <div>
+                    <h4 className="text-devtraco-blue mb-3 text-[1.5rem] font-bold">
+                      Prime Locations
+                    </h4>
+                    <p className="w-full max-w-lg">
+                      We are at the heart of Accra's most exclusive
+                      neighborhoods including Cantonments, Labone, Dzorwulu,
+                      Airport Residential Area. No matter your dream location in
+                      Accra, you can trust Devtraco to be there.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <span className="bg-devtraco-blue w-[7.5rem] h-[7rem] flex items-center justify-center p-10">
+                    <svg
+                      className="flex-none w-[4.2rem] h-[4rem]"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 64 64"
+                      fill="none"
+                    >
+                      <path
+                        d="M46.9581 16.5592C47.7522 15.7473 48.4096 15.0598 49.09 14.39C49.7705 13.7202 50.3532 13.6793 51.0443 14.3687C53.7767 17.0928 56.5056 19.8169 59.2309 22.5411C59.6502 22.9586 59.8439 23.4205 59.6076 23.9766C59.3713 24.5326 58.8969 24.6872 58.3444 24.6161C57.7173 24.538 57.536 24.7938 57.5609 25.4032C57.6053 26.4425 57.5858 27.4871 57.5609 28.5282C57.5609 28.9457 57.5822 29.1127 58.0939 28.96C61.1799 28.0521 63.8661 30.5589 63.3225 33.7373C62.8108 36.7344 62.2565 39.7155 60.9756 42.4977C56.7312 51.7521 49.6212 57.4017 39.5976 59.3382C38.007 59.6262 36.3922 59.7595 34.7759 59.7362C27.1294 59.7231 19.484 59.7231 11.8398 59.7362C10.63 59.7362 10.7526 59.6367 10.7472 60.8608C10.7472 61.2374 10.7579 61.6141 10.7472 61.9907C10.73 62.5177 10.5113 63.0181 10.1362 63.3886C9.761 63.7591 9.25798 63.9716 8.73078 63.9823C6.51476 64.006 4.29873 64.006 2.08271 63.9823C0.87106 63.9698 0.0271672 63.0424 0.0253906 61.7615C0.0253906 57.3081 0.0253906 52.8536 0.0253906 48.3978C0.0253906 45.1182 0.0253906 41.8386 0.0253906 38.559C0.0253906 37.0879 0.865726 36.2494 2.32255 36.2387C4.38341 36.2387 6.44428 36.2387 8.50515 36.2387C9.88735 36.2387 10.7384 37.0986 10.7526 38.4755C10.7526 38.9623 10.7703 39.4508 10.7526 39.9376C10.7295 40.4706 10.916 40.4706 11.3228 40.2379C14.0188 38.6484 16.9554 37.5083 20.0176 36.8623C21.8108 36.4613 23.6414 36.2505 25.4789 36.2334C30.7981 36.2334 36.1166 36.2334 41.4346 36.2334C43.7957 36.2334 45.4355 37.3438 46.4553 39.41C46.6738 39.8506 46.8302 39.943 47.2885 39.7351C48.8218 39.0404 50.3763 38.392 51.9273 37.7382C52.2381 37.6252 52.4929 37.3959 52.6379 37.0986C53.1887 35.9633 53.7501 34.8316 54.331 33.7088C54.5513 33.2824 54.4945 33.1243 53.9757 33.1314C52.6237 33.1492 51.2717 33.1314 49.9215 33.1314H14.0304C10.7312 33.1314 8.21379 31.083 7.54578 27.8673C7.40899 27.2082 7.49425 26.542 7.46938 25.8793C7.35212 22.804 7.55111 19.7731 8.66327 16.8559C9.4965 14.6689 10.4825 12.5725 12.0672 10.8154C12.3337 10.5205 12.3604 10.2931 12.165 9.94133C11.2003 8.19848 10.2445 6.44674 9.32239 4.68257C8.61175 3.34478 9.27442 1.97501 10.6851 1.72451C11.0528 1.66055 11.3957 1.77248 11.7279 1.86309C12.4563 2.05674 13.1847 2.24683 13.8989 2.48135C14.0708 2.55654 14.2628 2.57257 14.4448 2.52691C14.6268 2.48125 14.7885 2.3765 14.9045 2.22907C15.3717 1.72629 15.8639 1.24482 16.3595 0.770469C17.4113 -0.236869 18.6123 -0.149811 19.5077 0.985443C20.428 2.15268 20.4244 2.1509 21.5099 1.08138C21.7514 0.822083 22.0187 0.588134 22.3076 0.38317C23.1266 -0.149813 24.0842 -0.00413401 24.7665 0.758032C25.1306 1.1755 25.4676 1.61582 25.7756 2.07628C25.9923 2.39252 26.202 2.46181 26.5449 2.26638C27.0068 2.00522 27.4936 1.7867 27.9661 1.55574C28.7638 1.15778 29.5242 1.2164 30.1851 1.82045C30.846 2.4245 30.9935 3.176 30.6577 4.0039C29.8618 5.97594 29.0588 7.94797 28.2433 9.90758C28.1544 10.082 28.1172 10.2782 28.1361 10.473C28.155 10.6678 28.2291 10.8532 28.3499 11.0073C28.8537 11.7639 29.2827 12.5678 29.6308 13.4075C29.6799 13.5662 29.783 13.7026 29.9223 13.7932C30.0615 13.8837 30.228 13.9226 30.393 13.9032C31.3897 13.8819 32.3881 13.8659 33.3848 13.9032C33.9729 13.9281 34.0794 13.6722 34.0759 13.1552C34.0599 9.67662 34.0759 6.19802 34.0759 2.71764C34.0759 1.39229 34.3406 1.11869 35.6748 1.11869C38.9545 1.11869 42.2341 1.11869 45.5137 1.11869C46.6081 1.11869 46.935 1.44914 46.935 2.53998C46.935 7.01467 46.935 11.4911 46.935 15.9694C46.9243 16.1115 46.9386 16.2394 46.9581 16.5592ZM23.1178 57.5119C26.8184 57.5119 30.5209 57.5385 34.2216 57.5012C35.9449 57.4834 37.6824 57.4248 39.3737 57.0659C49.6781 54.8843 56.518 48.797 59.8936 38.8041C60.487 37.0275 60.7588 35.1887 61.0502 33.3553C61.2278 32.2254 60.7819 31.4419 59.9131 31.1487C58.9929 30.8414 58.1543 31.2091 57.6657 32.1756C56.5998 34.2921 55.5397 36.4128 54.4856 38.5377C54.252 39.0431 53.8317 39.4385 53.313 39.6409C51.3925 40.444 49.4844 41.279 47.5657 42.0873C47.3591 42.1566 47.1738 42.2781 47.0279 42.4399C46.8819 42.6017 46.7801 42.7985 46.7325 43.0112C46.0822 45.4185 44.0249 46.9606 41.5341 46.9623C36.3038 46.9623 31.0734 46.9623 25.8431 46.9623C24.3188 46.9623 24.5035 47.1542 24.4911 45.6246C24.4911 44.7522 24.4911 44.7487 25.3794 44.7469C30.5209 44.7469 35.6624 44.7469 40.8039 44.7469C41.247 44.7497 41.6894 44.7122 42.1257 44.635C43.563 44.3738 44.5543 43.2457 44.668 41.7178C44.7658 40.4138 43.8419 39.0653 42.5503 38.6638C42.0179 38.5092 41.4648 38.4373 40.9105 38.4506C36.6111 38.4506 32.3117 38.4506 28.0123 38.4506C26.3509 38.4401 24.6902 38.5214 23.0378 38.694C18.8828 39.1625 14.8944 40.5946 11.3904 42.8761C11.1789 42.9882 11.0048 43.1595 10.8893 43.369C10.7738 43.5785 10.722 43.8172 10.7401 44.0558C10.7614 48.2664 10.7686 52.4769 10.7401 56.6875C10.7401 57.3982 10.9764 57.5278 11.6284 57.5243C15.4499 57.4976 19.2838 57.5119 23.1178 57.5119ZM18.9641 30.8627V30.916C20.5381 30.916 22.1104 30.8876 23.6827 30.9302C24.3259 30.948 24.5071 30.7525 24.5035 30.1059C24.4804 25.1882 24.4911 20.2705 24.4911 15.36C24.4911 14.2141 24.8038 13.9192 25.9515 13.8943C26.3601 13.8854 26.957 14.1075 27.1329 13.7735C27.3088 13.4395 26.8202 13.0095 26.6514 12.6098C26.4009 12.0217 25.9852 11.8441 25.3456 11.8494C21.8688 11.8814 18.3902 11.8761 14.9134 11.8494C14.6722 11.8345 14.4311 11.8796 14.2116 11.9806C13.992 12.0817 13.801 12.2356 13.6555 12.4286C13.1093 13.1265 12.6175 13.8654 12.1845 14.6387C10.0295 18.3838 9.45386 22.4558 9.71502 26.693C9.86425 29.1376 11.2074 30.6015 13.6555 30.8343C15.4091 30.9995 17.1928 30.8609 18.9641 30.8609V30.8627ZM44.7054 11.1814C44.7054 8.81141 44.6929 6.44142 44.7054 4.07497C44.7054 3.54199 44.5774 3.33057 44.0036 3.33767C41.6567 3.36432 39.308 3.36077 36.9611 3.33767C36.4494 3.33767 36.2665 3.47803 36.2665 4.01456C36.2807 12.7626 36.2807 21.5112 36.2665 30.2604C36.2665 30.813 36.4779 30.9302 36.9771 30.9249C38.6151 30.9036 40.2549 30.9 41.893 30.9249C42.4153 30.9249 42.5912 30.765 42.5823 30.2391C42.5539 28.6242 42.545 27.0057 42.5823 25.3907C42.5983 24.7618 42.3851 24.5486 41.7846 24.6179C41.2303 24.6819 40.7542 24.5131 40.5285 23.9659C40.3029 23.4187 40.4966 22.9479 40.9194 22.5357C42.044 21.4342 43.1402 20.3061 44.2648 19.2081C44.4108 19.0763 44.5259 18.9138 44.6017 18.7323C44.6776 18.5508 44.7124 18.3547 44.7036 18.1582C44.6965 15.8326 44.7054 13.507 44.7054 11.1814ZM8.53358 50.1425C8.53358 46.4898 8.53358 42.8353 8.54246 39.1826C8.54246 38.6496 8.42165 38.4293 7.84425 38.4417C6.18312 38.4755 4.52199 38.4648 2.86975 38.4417C2.42026 38.4417 2.24082 38.5714 2.24082 39.0458C2.25148 46.4187 2.25148 53.7916 2.24082 61.1646C2.24082 61.6407 2.41849 61.7739 2.86975 61.7686C4.48646 61.7509 6.10317 61.7366 7.71989 61.7686C8.34526 61.7828 8.56023 61.6141 8.5549 60.9567C8.51759 57.3609 8.53358 53.7525 8.53358 50.1425ZM26.7101 23.4809C26.7101 25.7159 26.7225 27.9526 26.7012 30.1876C26.7012 30.7206 26.8255 30.9355 27.4012 30.9267C29.3922 30.8971 31.3843 30.8971 33.3777 30.9267C33.9551 30.9355 34.0759 30.7099 34.0741 30.1858C34.0599 25.7372 34.0599 21.288 34.0741 16.8381C34.0741 16.2359 33.8698 16.092 33.3049 16.1008C31.3506 16.1293 29.4087 16.1382 27.4616 16.1008C26.8149 16.0866 26.6888 16.33 26.6959 16.911C26.7261 19.098 26.7101 21.2903 26.7101 23.4809ZM11.6853 4.24019C12.5505 5.83914 13.3748 7.2782 14.1068 8.76167C14.4373 9.43145 14.8174 9.72637 15.5849 9.64998C16.3524 9.57358 16.3507 9.63043 16.0167 8.93933C15.2634 7.37947 15.2687 7.39013 16.8517 6.72035C17.2425 6.55512 17.4646 6.61908 17.6369 7.0046C17.9283 7.65129 18.2623 8.27843 18.543 8.92867C18.7438 9.39592 18.9783 9.69794 19.5699 9.63932C20.1615 9.58069 20.7087 9.71216 20.9627 8.96065C21.1819 8.40345 21.4463 7.86512 21.7533 7.35104C22.6612 5.64905 22.1087 5.75209 24.0096 6.6404C24.4449 6.84648 24.4644 7.10232 24.2566 7.48429C23.9617 8.02971 23.7041 8.59467 23.4198 9.14719C23.2421 9.50251 23.3381 9.63043 23.7236 9.62154C24.2566 9.60911 24.7896 9.59667 25.3225 9.62154C25.7472 9.64464 25.9586 9.46343 26.1114 9.07968C26.7012 7.59799 27.323 6.13051 27.9199 4.65237C27.9768 4.51202 28.1331 4.3468 27.9199 4.14426C27.6517 4.2704 27.3745 4.40187 27.0974 4.52978C25.8538 5.10363 25.0809 4.91353 24.2548 3.83335C24.0132 3.51534 23.7609 3.20621 23.5442 2.87576C23.3665 2.60038 23.2084 2.58617 22.9792 2.82779C22.5688 3.26306 22.1513 3.69122 21.7089 4.09451C20.8206 4.91353 19.6107 4.82469 18.8379 3.8902C18.5697 3.56685 18.3174 3.22752 18.0793 2.88286C17.9016 2.61459 17.74 2.59683 17.5108 2.84022C17.0542 3.32346 16.5603 3.76939 16.109 4.26151C15.4943 4.92241 14.7499 5.05388 13.922 4.84601C13.2292 4.68967 12.5523 4.48359 11.6853 4.24019ZM55.7843 22.3812C55.6724 22.2337 55.628 22.1591 55.5693 22.0987C53.862 20.3914 52.1476 18.6947 50.4545 16.9732C50.1258 16.6392 49.9375 16.7227 49.6532 17.0105C48.0045 18.6805 46.3381 20.3327 44.6787 21.9956C44.581 22.0951 44.4016 22.1626 44.4549 22.3812H55.7843ZM50.0796 24.6232H45.6896C44.8013 24.6232 44.8013 24.6232 44.8013 25.5471C44.8013 26.876 44.7889 28.212 44.8013 29.5338C44.8191 31.0972 44.5259 30.8858 46.2315 30.9213C46.7005 30.9213 46.8497 30.7437 46.8408 30.2977C46.8195 29.1252 46.8266 27.9508 46.8408 26.7765C46.8408 26.0161 47.2353 25.611 47.9743 25.6022C49.3707 25.5868 50.7666 25.5868 52.1618 25.6022C52.908 25.6022 53.2935 26.009 53.3059 26.7676C53.3201 27.6755 53.3059 28.5833 53.3059 29.4912C53.3326 31.1061 53.011 30.8893 54.761 30.9124C55.1891 30.9124 55.349 30.7668 55.3455 30.3333C55.3301 28.6277 55.3301 26.9228 55.3455 25.2184C55.3455 24.7476 55.1678 24.6037 54.7201 24.609C53.1762 24.6339 51.6253 24.6232 50.0796 24.6232ZM51.0887 29.3668C51.0425 27.5902 51.444 27.8318 49.5786 27.814H49.5129C49.1664 27.7963 49.0474 27.9775 49.0509 28.3008C49.0509 29.0115 49.0634 29.7115 49.0509 30.4168C49.0509 30.7916 49.2144 30.9196 49.5715 30.9142C51.4192 30.8947 51.0496 31.0919 51.0905 29.4929L51.0887 29.3668Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M58.6291 4.4267C58.6291 4.95969 58.6167 5.49267 58.6291 6.02565C58.6291 6.38097 58.4781 6.51955 58.1175 6.5462C56.4137 6.67767 56.4137 6.68656 56.4102 4.96502C56.4102 4.78736 56.4102 4.6097 56.4102 4.43204L56.5132 4.31122H58.5279L58.6291 4.4267Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M2.14844 9.61793C2.14844 9.08495 2.1591 8.55197 2.14844 8.01898C2.14844 7.66366 2.29945 7.52685 2.6601 7.49843C4.36387 7.36874 4.36209 7.35986 4.36742 9.08139C4.36742 9.25906 4.36742 9.43672 4.36742 9.61438L4.2626 9.73519H2.25147L2.14844 9.61793Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M61.7275 8.55731C61.7275 7.50734 61.7275 7.50733 62.8983 7.50911C63.9483 7.50911 63.9483 7.50911 63.9465 8.6799C63.9465 9.7281 63.9465 9.72811 62.7757 9.72811C61.7275 9.72633 61.7275 9.72632 61.7275 8.55731Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M2.13106 11.8583C1.67092 11.8583 1.20901 11.8317 0.750642 11.8583C0.217659 11.8938 -0.000868917 11.7268 0.013344 11.1619C0.0595358 9.35861 -0.180305 9.66951 1.49148 9.6322C1.71001 9.6322 1.92853 9.62155 2.14883 9.61444L2.25187 9.73525V11.7499L2.13106 11.8583Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M55.4096 10.6999C56.4916 10.6999 56.4951 10.6999 56.4916 11.8369C56.4916 13.045 56.5733 12.9029 55.2888 12.9189C54.2708 12.9189 54.2708 12.9189 54.2726 11.7161C54.2815 10.6999 54.2815 10.6999 55.4096 10.6999Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M4.37178 11.8743C4.37178 12.3344 4.34513 12.7981 4.37178 13.2565C4.40731 13.7788 4.24031 14.0062 3.67535 13.992C1.87209 13.9458 2.183 14.1874 2.14569 12.5157C2.14569 12.2954 2.13504 12.0768 2.12793 11.8583L2.24874 11.7535H4.26341L4.37178 11.8743Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M4.37142 9.61798C4.9044 9.61798 5.42673 9.6464 5.95438 9.63574C6.35057 9.62686 6.50158 9.79563 6.49802 10.1865C6.4767 12.2278 6.71121 11.805 4.96303 11.8565L4.37142 11.8743L4.2666 11.7552V9.73879L4.37142 9.61798Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M1.06725 20.3665C0.0208231 20.3665 0.0208222 20.3664 0.0225988 19.1939C0.0225988 18.1475 0.0226053 18.1475 1.19517 18.1475C2.24159 18.1475 2.24158 18.1475 2.24158 19.3218C2.23981 20.3682 2.23981 20.3682 1.06725 20.3665Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M5.32377 2.28057C4.27735 2.28057 4.27734 2.28057 4.27734 1.10801C4.27734 0.0615871 4.27734 0.0615845 5.45168 0.0615845C6.4981 0.0615845 6.4981 0.0615818 6.49633 1.23592C6.49633 2.28234 6.49633 2.28235 5.32377 2.28057Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M56.4062 2.17041C56.4062 1.63743 56.4187 1.10445 56.4062 0.571464C56.4062 0.216142 56.5573 0.0793444 56.9179 0.0509186C58.6217 -0.0787739 58.6217 -0.0876508 58.6252 1.63388C58.6252 1.81155 58.6252 1.98921 58.6252 2.16687L58.5222 2.2859H56.5111L56.4062 2.17041Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M56.4069 4.42671C55.8739 4.42671 55.3516 4.39829 54.8239 4.41072C54.4277 4.41961 54.2749 4.24905 54.2803 3.85997C54.2998 1.81687 54.0671 2.23971 55.8135 2.18996L56.4069 2.17041L56.5117 2.29122V4.3059L56.4069 4.42671Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M58.6292 2.17218C59.1622 2.17218 59.6845 2.19883 60.2122 2.18817C60.6084 2.18817 60.7594 2.34807 60.7558 2.73892C60.7345 4.78202 60.969 4.35919 59.2226 4.40894L58.6292 4.4267L58.5244 4.30767C58.5244 3.63611 58.5244 2.96277 58.5244 2.29121L58.6292 2.17218Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M15.9819 19.7731C15.9819 19.2863 15.9819 18.7977 15.9819 18.3109C15.9979 17.4741 16.3674 17.0922 17.2078 17.0922C17.7248 17.0922 18.2293 17.1366 18.1209 16.3709C18.116 16.3484 18.1198 16.3249 18.1316 16.3051C18.6219 15.7117 19.2793 16.1417 19.8514 16.0351C20.1836 15.9747 20.3488 16.1808 20.3204 16.5077C20.276 17.0016 20.5354 17.1242 20.9653 17.0868C22.3866 16.966 22.5323 17.8543 22.447 18.915C22.415 19.3005 22.1503 19.3005 21.8767 19.3023C20.88 19.3023 19.8833 19.3023 18.8867 19.3023C18.5615 19.3023 18.2062 19.2277 18.192 19.7606C18.1778 20.3256 18.5473 20.2741 18.9027 20.2741C19.7004 20.2741 20.5016 20.2634 21.2957 20.2741C22.049 20.2883 22.4381 20.6756 22.4505 21.4307C22.4648 22.4273 22.4612 23.424 22.4505 24.4207C22.4505 25.2948 22.0686 25.6643 21.1909 25.6643C20.6953 25.6643 20.2191 25.6288 20.3151 26.3536C20.3196 26.3759 20.3164 26.3991 20.3062 26.4194C19.8709 27.0732 19.2189 26.6077 18.6788 26.7214C18.375 26.7871 18.0801 26.693 18.1156 26.2808C18.1618 25.7478 17.8935 25.6323 17.4334 25.6679C15.9748 25.778 15.9055 24.8044 15.9926 23.8078C16.0281 23.4116 16.3319 23.4524 16.5895 23.4524C17.5856 23.4453 18.5823 23.4453 19.5795 23.4524C19.9349 23.4524 20.244 23.4702 20.2404 22.9568C20.2369 22.4433 19.9011 22.4789 19.5635 22.4789C18.7658 22.4789 17.9646 22.4789 17.1722 22.4789C16.3799 22.4789 15.9997 22.0773 15.9819 21.2868C15.9695 20.7911 15.9819 20.2812 15.9819 19.7731Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M39.4735 19.2632C39.4735 19.4622 39.4735 19.6594 39.4735 19.8583C39.4966 20.2829 39.255 20.3682 38.8926 20.3682C38.5301 20.3682 38.301 20.2616 38.3205 19.8459C38.3347 19.5385 38.3205 19.2294 38.3205 18.9221C38.3205 18.5099 38.2814 18.135 38.9032 18.1386C39.525 18.1421 39.4771 18.5312 39.4753 18.9327V19.2632H39.4735Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M41.5189 6.46094C41.5189 6.26196 41.5278 6.06298 41.5189 5.86577C41.4976 5.41984 41.7819 5.38254 42.123 5.38076C42.4641 5.37899 42.6808 5.4696 42.6684 5.86045C42.6577 6.1909 42.6577 6.52135 42.6684 6.8518C42.6844 7.28707 42.6684 7.62284 42.0572 7.61041C41.4461 7.59797 41.5065 7.24265 41.51 6.85713C41.51 6.72566 41.51 6.59241 41.51 6.46094H41.5189Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M39.477 6.53735C39.477 7.56423 39.3669 7.75255 38.7255 7.57489C37.9207 7.35281 38.4377 6.65104 38.3418 6.17669C38.2831 5.88355 38.173 5.42874 38.7468 5.38611C39.2105 5.35057 39.541 5.43408 39.4788 6.0097C39.4675 6.18538 39.4669 6.36159 39.477 6.53735Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M42.6641 10.771C42.6641 10.9682 42.6641 11.1671 42.6641 11.3661C42.6872 11.8067 42.4118 11.8582 42.0654 11.8565C41.719 11.8547 41.504 11.7783 41.5146 11.3821C41.5235 11.0534 41.5146 10.7212 41.5146 10.3908C41.5004 9.9626 41.5146 9.61617 42.1187 9.62683C42.7227 9.63749 42.6801 9.98214 42.6712 10.3748C42.6712 10.5062 42.6712 10.6377 42.6712 10.771H42.6641Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M42.6641 19.2809C42.6641 19.4799 42.6641 19.6789 42.6641 19.8761C42.6872 20.3185 42.4118 20.3682 42.0654 20.3664C41.719 20.3647 41.504 20.2883 41.5146 19.8939C41.5241 19.5634 41.5241 19.233 41.5146 18.9025C41.5004 18.4743 41.5146 18.1261 42.1187 18.1386C42.7227 18.151 42.6801 18.4939 42.6712 18.8847C42.6712 19.018 42.6712 19.1495 42.6712 19.2809H42.6641Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M39.4775 10.8101C39.4775 11.8121 39.3638 11.9649 38.7047 11.8441C38.0456 11.7233 38.3192 11.2045 38.3494 10.8829C38.3867 10.4672 37.9816 9.84717 38.7047 9.66063C39.1648 9.54159 39.5486 9.66063 39.4811 10.2824C39.4692 10.4581 39.468 10.6343 39.4775 10.8101Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M39.4733 15.0046C39.4733 15.2018 39.4733 15.4008 39.4733 15.598C39.4964 16.0209 39.2619 16.1133 38.8959 16.1133C38.5299 16.1133 38.3025 16.012 38.3203 15.5945C38.3345 15.2871 38.3203 14.978 38.3203 14.6689C38.3203 14.262 38.2741 13.8818 38.8995 13.8818C39.5249 13.8818 39.4787 14.2691 39.4751 14.6742C39.4751 14.7843 39.4751 14.8945 39.4751 15.0046H39.4733Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M41.5148 14.9495C41.5148 13.9244 41.5699 13.8623 42.2095 13.8836C42.7834 13.912 42.7141 14.3384 42.6501 14.644C42.5506 15.1343 43.0747 15.8467 42.2344 16.0812C41.7867 16.2074 41.4491 16.0386 41.5113 15.4701C41.5219 15.2968 41.5231 15.123 41.5148 14.9495Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M6.49594 43.1426V43.2758C6.49594 44.992 6.49594 44.9867 4.77618 44.8375C4.46172 44.8108 4.27872 44.7185 4.28228 44.372C4.28228 43.5779 4.28228 42.7837 4.28228 41.9896C4.28228 41.9452 4.28228 41.8901 4.29827 41.8599C4.7673 41.2256 5.42997 41.6716 5.99493 41.5667C6.36091 41.4992 6.50126 41.732 6.49238 42.0837C6.4835 42.4355 6.49238 42.7944 6.49238 43.1497L6.49594 43.1426Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M29.8973 19.2934C29.8973 19.4906 29.8973 19.6896 29.8973 19.8868C29.9186 20.3381 29.6273 20.3629 29.2879 20.3665C28.9486 20.37 28.7372 20.2705 28.7549 19.8832C28.7656 19.5528 28.7549 19.2223 28.7549 18.8919C28.7549 18.5064 28.7159 18.1493 29.3021 18.1386C29.8884 18.128 29.9346 18.4602 29.9115 18.8972C29.9115 19.0287 29.9115 19.1602 29.9115 19.2934H29.8973Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M31.9423 19.2543C31.9423 19.0553 31.9512 18.8563 31.9423 18.6591C31.9174 18.2363 32.1573 18.1475 32.5215 18.1457C32.8857 18.1439 33.1131 18.2505 33.0953 18.6663C33.0811 18.9754 33.0953 19.2827 33.0953 19.5919C33.0953 20.0005 33.138 20.3789 32.5144 20.3771C31.8908 20.3754 31.937 19.9863 31.9406 19.5848V19.2543H31.9423Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M29.8942 23.5501C29.8942 23.7704 29.8942 23.9907 29.8942 24.211C29.8942 24.6392 29.5797 24.6143 29.2883 24.6179C28.997 24.6214 28.7554 24.577 28.7554 24.2039C28.7554 23.8308 28.7554 23.4933 28.7554 23.138C28.7554 22.7524 28.7181 22.3971 29.3043 22.3847C29.8906 22.3722 29.935 22.7098 29.9119 23.1433C29.9119 23.2765 29.9119 23.408 29.9119 23.5412L29.8942 23.5501Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M31.9442 23.4826C31.9442 23.2837 31.9442 23.0865 31.9442 22.8875C31.9211 22.4416 32.2054 22.4042 32.5483 22.4042C32.8912 22.4042 33.1061 22.4913 33.0919 22.8821C33.0813 23.2126 33.0919 23.543 33.0919 23.8735C33.1097 24.3088 33.0919 24.6445 32.4825 24.6321C31.8732 24.6197 31.93 24.2643 31.9353 23.8788C31.9353 23.7474 31.9353 23.6141 31.9353 23.4826H31.9442Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M33.0942 27.8158C33.0942 28.8409 32.9805 29.0398 32.3427 28.8515C31.5183 28.6081 32.0762 27.8815 31.9571 27.3858C31.8896 27.1016 31.8381 26.6965 32.3658 26.6628C32.8295 26.6325 33.1581 26.7125 33.096 27.2881C33.0847 27.4638 33.0841 27.64 33.0942 27.8158Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M29.8981 27.7998C29.8981 27.997 29.8981 28.196 29.8981 28.3932C29.9194 28.8409 29.6351 28.8764 29.2923 28.8782C28.9494 28.8799 28.7362 28.7893 28.7486 28.3985C28.7593 28.068 28.7593 27.7376 28.7486 27.4071C28.7308 26.9719 28.7593 26.6361 29.3598 26.6485C29.9603 26.661 29.9105 27.0181 29.9052 27.4018V27.7998H29.8981Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                  <div>
+                    <h4 className="text-devtraco-blue mb-3 text-[1.5rem] font-bold">
+                      Property Management
+                    </h4>
+                    <p className="w-full max-w-lg">
+                      We ensure that yoy are maximizing the return on your
+                      investment while allowing you to sleep peacefully at
+                      night.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 };
 

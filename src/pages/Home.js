@@ -102,7 +102,7 @@ const Home = () => {
                   <p className="text-devtraco-white">Employees</p>
                 </div>
               </div>
-              <div className="mt-5 flex flex-wrap  flex-row items-center sm:space-x-4">
+              <div className="mt-5 flex flex-wrap  flex-row items-center gap-4">
                 <Button text="Find out More" isIcon={true} />
                 <Button text="Contact Us" isIcon={false} />
               </div>
@@ -722,7 +722,7 @@ const Home = () => {
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row items-start md:items-end justify-between space-y-6 md:space-x-10">
             <div>
-              <span className="text-primary-purple">_Our Services</span>
+              <span className="text-primary-purple">_Our Properties</span>
               <h1 className="text-[3rem] text-white font-bold max-w-[36rem]">
                 Creating Legacies: Our Remarkable Portfolio
               </h1>
@@ -760,7 +760,7 @@ const Home = () => {
                       name="firstname"
                       id="firstname"
                       autoComplete="off"
-                      className="focus:ring-devtraco-primary-blue placeholder:text-gray-50  text-white outline-none focus:ring mt-1 p-3 focus:border-devtraco-primary-blue border border-0.5 border-white bg-transparent flex-1 block w-full rounded-[0.5rem] sm:text-sm"
+                      className="focus:ring-devtraco-primary-blue  text-white outline-none focus:ring mt-1 p-3 focus:border-devtraco-primary-blue border border-0.5 border-white bg-transparent flex-1 block w-full rounded-[0.5rem] sm:text-sm"
                       placeholder="First Name"
                     />
                   </div>
@@ -773,7 +773,7 @@ const Home = () => {
                       name="lastname"
                       id="lastname"
                       autoComplete="off"
-                      className="focus:ring-devtraco-primary-blue placeholder:text-gray-50 outline-none text-white focus:ring mt-1 p-3 focus:border-devtraco-primary-blue border border-0.5 border-white bg-transparent flex-1 block w-full rounded-[0.5rem] sm:text-sm"
+                      className="focus:ring-devtraco-primary-blue outline-none text-white focus:ring mt-1 p-3 focus:border-devtraco-primary-blue border border-0.5 border-white bg-transparent flex-1 block w-full rounded-[0.5rem] sm:text-sm"
                       placeholder="Last Name"
                     />
                   </div>
@@ -802,7 +802,7 @@ const Home = () => {
                       name="email"
                       id="email"
                       autoComplete="off"
-                      className="border-0 focus:outline-0 placeholder:text-gray-50 border-transparent p-0 focus:ring-0 text-white bg-transparent sm:text-sm w-full outline-none"
+                      className="border-0 focus:outline-0 border-transparent p-0 focus:ring-0 text-white bg-transparent sm:text-sm w-full outline-none"
                       placeholder="Email Address"
                     />
                   </div>
@@ -832,7 +832,7 @@ const Home = () => {
                       name="phone"
                       id="phone"
                       autoComplete="off"
-                      className="border-0 placeholder:text-gray-50 focus:outline-0 border-transparent p-0 focus:ring-0 text-white bg-transparent sm:text-sm w-full outline-none"
+                      className="border-0  focus:outline-0 border-transparent p-0 focus:ring-0 text-white bg-transparent sm:text-sm w-full outline-none"
                       placeholder="Phone Number"
                     />
                   </div>
@@ -866,9 +866,7 @@ const Home = () => {
                     rows="7"
                     placeholder="Message"
                     className="focus:ring-devtraco-primary-blue text-white outline-none focus:ring mt-1 p-3 focus:border-devtraco-primary-blue border border-0.5 border-white bg-transparent flex-1 block w-full rounded-[0.5rem]  sm:text-sm sm:leading-6"
-                  >
-                    Message
-                  </textarea>
+                 />  
                 </div>
                 <button
                   type="submit"
