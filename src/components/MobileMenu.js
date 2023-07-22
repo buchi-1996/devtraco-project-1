@@ -9,8 +9,8 @@ const MobileMenu = () => {
   
 
   return (
-    <div  style={{transform: `${!state.isMobileOpen ? 'translateX(100%)' : 'translateX(0%)'}`}} className={`transition ease-in duration-300 fixed z-50 inset-0 bg-blue-50 backdrop-blur-md bg-opacity-50`}>
-        <div className="h-full w-[60%] md:w-2/5 bg-devtraco-blue bg-opacity-80 absolute right-0 py-10 px-8">
+    <div  style={{transform: `${!state.isMobileOpen ? 'translateX(100%)' : 'translateX(0%)'}`}} className={`transition ease-in-out duration-300 fixed z-50 inset-0 bg-blue-50 backdrop-blur-md bg-opacity-50`}>
+        <div style={{transform: `${!state.isMobileOpen ? 'translateX(100%)' : 'translateX(0%)'}`}} className="transition ease-in-out duration-300 delay-200 h-full w-[65%] md:w-2/5 bg-devtraco-blue bg-opacity-80 absolute right-0 py-10 px-8">
           <nav>
             <div className="flex flex-row items-center justify-between">
               <span>
