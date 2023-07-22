@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./components/Header";
@@ -15,11 +15,9 @@ import Contact from "./pages/Contact";
 import HeaderMain from "./components/HeaderMain";
 import { headerRoutes } from "./routes/routes";
 import MobileMenu from "./components/MobileMenu";
-import AppState from "./context/AppState";
 import Property from "./pages/Property";
 
 function App() {
-  const {state} = useContext(AppState)
   const [isWelcome, setIsWelcome] = useState(true);
   const pathname = useLocation().pathname;
   const isHome = pathname === "/";

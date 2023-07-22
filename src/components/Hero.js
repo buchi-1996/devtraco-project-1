@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
+import React, { useLayoutEffect, useRef, useState } from "react";
 import Button from "./Button";
 import { motion } from "framer-motion";
 import { pageSlide, pageTransition } from "../lib/framer-motion";
