@@ -3,93 +3,92 @@ import Button from "./Button";
 import { motion } from "framer-motion";
 import { pageSlide, pageTransition } from "../lib/framer-motion";
 
-const Hero = () => {
-  const images = [
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-    {
-      desc: "In this article, we will be going to learn how to make",
-      img: "../forte1.png",
-      link: "",
-    },
-  ];
 
-  // loop through imgaes in the array using length of the array
-  // Add +1 for every foward click of button and -1 for every backward click
-  // -translate-y-[27rem] for every fow
+const images = [
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+  {
+    desc: "In this article, we will be going to learn how to make",
+    img: "../forte1.png",
+    link: "",
+  },
+];
+
+
+const Hero = () => {
 
   const [screen, setScreen] = useState(0);
 
-  const slideUp = (e) => {
-    console.log("clicked", screen);
+  const slideUp = () => {
+
     if (screen === 0) {
       setScreen((images.length - 1) * 27);
     }
@@ -117,7 +116,7 @@ const Hero = () => {
             transition={pageTransition}
             className="md:bg-devtraco-blue md:bg-opacity-50 rounded-3xl md:pt-40 pb-10 md:px-14 flex-1"
           >
-            <h1 className="text-[3rem] max-w-2xl leading-[120%] text-white">
+            <h1 className="text-[2rem] sm:text-[3rem] max-w-2xl leading-[120%] text-white">
               Your gateway to lucrative real estate investments.
             </h1>
             <p className="text-white text-sm max-w-xl my-5 leading-[167%]">
@@ -133,19 +132,19 @@ const Hero = () => {
             exit="out"
             variants={pageSlide}
             transition={pageTransition}
-            className="flex flex-row space-x-6 bg-devtraco-blue bg-opacity-50 rounded-3xl box-border min-w-full md:min-w-[26.25rem] place-self-start py-5 pl-5 pr-8"
+            className="flex flex-row space-x-6 bg-devtraco-blue bg-opacity-50 rounded-3xl box-border    place-self-start py-5 pl-5 pr-8"
           >
-            <div className="overflow-hidden w-full md:min-w-[19.375rem] h-[27rem] rounded-3xl">
+            <div className="overflow-hidden w-full   h-[27rem] rounded-3xl">
               <div
                 style={{ transform: `translateY(-${screen}rem)` }}
-                className={`transition-all ease-in-out duration-500 delay-[200ms] slider min-w-max h-full  flex flex-col items-center`}
+                className={`transition-all ease-in-out duration-500 delay-[200ms] slider md:min-w-max h-full  flex flex-col items-center`}
               >
                 {images.map(({ img }, index) => (
                   <img
                     key={index}
                     src={img}
                     alt=""
-                    className="h-full w-full object-cover"
+                    className="min-h-full w-full object-cover"
                   />
                 ))}
               </div>
@@ -154,11 +153,10 @@ const Hero = () => {
               <h1 className="text-[3rem] text-white absolute transform rotate-90 -translate-x-28 translate-y-24 -mt-1 ml-1 ">
                 Properties
               </h1>
-              <div className="flex flex-col mt-auto space-y-2">
+              <div className="flex flex-col mt-auto space-y-4 md:space-y-2">
                 <button onClick={slideUp}>
                   <svg
-                    width="33"
-                    height="33"
+                    className="w-10 h-10"
                     viewBox="0 0 33 33"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -188,8 +186,7 @@ const Hero = () => {
                 </button>
                 <button onClick={slideDown}>
                   <svg
-                    width="33"
-                    height="33"
+                    className="w-10 h-10"
                     viewBox="0 0 33 33"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"

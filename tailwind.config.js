@@ -17,7 +17,7 @@ module.exports = {
         },
       },
       borderColor: {
-        "primary-b": "#011242",
+        "devtraco-primary-blue": "#ABBAFF",
       },
       backgroundImage: {
         "hero-pattern":
@@ -48,17 +48,17 @@ module.exports = {
         "credly-black": "#161616",
         "devtraco-blue": "#070D28",
         "devtraco-primary-blue": "#ABBAFF",
-        "neutral-500": "#1C1C1C",
+        "devtraco-neutral-100": "#F4F4F4",
       },
 
       textColor: {
         "devtraco-blue": "#070D28",
-        "primary-purple": "#ABBAFF",
         "devtraco-white": "#F9FAFB",
         "devtraco-primary-blue": "#ABBAFF",
+        "primary-purple": "#4E64CF",
       },
     },
   },
 
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };

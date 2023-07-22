@@ -6,7 +6,7 @@ import AppState from '../context/AppState';
 const MobileMenu = () => {
   const {state, dispatch} = useContext(AppState);
 
-  console.log(state.isMobileOpen)
+  
 
   return (
     <div  style={{transform: `${!state.isMobileOpen ? 'translateX(100%)' : 'translateX(0%)'}`}} className={`transition ease-in duration-300 fixed z-50 inset-0 bg-blue-50 backdrop-blur-md bg-opacity-50`}>

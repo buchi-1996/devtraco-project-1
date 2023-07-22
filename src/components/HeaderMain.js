@@ -1,9 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { headerRoutes } from "../routes/routes";
+import AppState from "../context/AppState";
 
 const HeaderMain = () => {
   const [isShow, setIsShow] = useState(false);
+
+  const { dispatch } = useContext(AppState);
 
   const showTransition = () => {
     if (window.scrollY > 10) {
@@ -25,26 +28,35 @@ const HeaderMain = () => {
       } bg-devtraco-blue transition-all ease-in-out duration-500 delay-[200ms]`}
     >
       <div className="container mx-auto">
-        <nav className="flex flex-row items-center justify-between">
-          <ul className="flex flex-row items-center space-x-14">
+        <nav className="flex flex-row items-center justify-between space-x-4">
+          <ul className="hidden md:flex flex-row items-center space-x-6 lg:space-x-14">
             <Link to={headerRoutes.About}>
-              <li className="uppercase text-white cursor-pointer">About</li>
+              <li className="uppercase text-white cursor-pointer hover:text-devtraco-primary-blue transition-all">
+                About
+              </li>
             </Link>
             <Link to={headerRoutes.Team}>
-              <li className="uppercase text-white cursor-pointer">Team</li>
+              <li className="uppercase text-white cursor-pointer hover:text-devtraco-primary-blue transition-all">
+                Team
+              </li>
             </Link>
             <Link to={headerRoutes.Branches}>
-              <li className="uppercase text-white cursor-pointer">Branches</li>
+              <li className="uppercase text-white cursor-pointer hover:text-devtraco-primary-blue transition-all">
+                Branches
+              </li>
             </Link>
           </ul>
           <div className="logo flex-none">
-           <Link to={headerRoutes.Home}> <img
-              src="../devtraco-logo.svg"
-              alt="brand-logo"
-              className="w-24 h-24 cursor-pointer"
-            /></Link>
+            <Link to={headerRoutes.Home}>
+              {" "}
+              <img
+                src="../devtraco-logo.svg"
+                alt="brand-logo"
+                className="w-24 h-24 cursor-pointer"
+              />
+            </Link>
           </div>
-          <ul className="flex flex-row items-center space-x-14">
+          <ul className="hidden md:flex flex-row items-center space-x-6 lg:space-x-14">
             <Link to={headerRoutes.Partners}>
               <li className="uppercase text-white cursor-pointer hover:text-devtraco-primary-blue transition-all">
                 Investor Benefits
@@ -56,12 +68,17 @@ const HeaderMain = () => {
               </li>
             </Link>
             <Link to={headerRoutes.Contact}>
-              <li className="uppercase text-white cursor-pointer hover:text-devtraco-primary-blue transition-all">Contact</li>
+              <li className="uppercase text-white cursor-pointer hover:text-devtraco-primary-blue transition-all">
+                Contact
+              </li>
             </Link>
           </ul>
-          <div className="hamburger hidden">
+          <button
+            onClick={() => dispatch({ type: "IS_MOBILE_OPEN" })}
+            className="hamburger block md:hidden cursor-pointer "
+          >
             <img src="../pajamas_hamburger.svg" alt="" className="w-8 h-8" />
-          </div>
+          </button>
         </nav>
       </div>
     </header>

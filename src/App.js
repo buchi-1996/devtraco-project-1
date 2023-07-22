@@ -16,6 +16,7 @@ import HeaderMain from "./components/HeaderMain";
 import { headerRoutes } from "./routes/routes";
 import MobileMenu from "./components/MobileMenu";
 import AppState from "./context/AppState";
+import Property from "./pages/Property";
 
 function App() {
   const {state} = useContext(AppState)
@@ -44,6 +45,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path={headerRoutes.About} element={<About />} />
             <Route path={headerRoutes.Team} element={<Team />} />
+            <Route path={`${headerRoutes.Property}/:id`} element={<Property />} />
             <Route path={headerRoutes.Branches} element={<Branches />} />
             <Route path={headerRoutes.Partners} element={<Partners />} />
             <Route path={headerRoutes.Services} element={<Services />} />

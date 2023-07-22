@@ -1,6 +1,8 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Button from "../components/Button";
+import TabGallery from "../components/TabGallery";
+import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   return (
@@ -8,12 +10,12 @@ const Home = () => {
       <Hero />
       <section id="about" className="py-14 bg-devtraco-blue">
         <div className="container mx-auto">
-          <div className="flex flex-row flex-wrap items-center justify-center gap-y-10 space-x-10">
+          <div className="flex flex-row flex-wrap items-center justify-center gap-y-4 gap-4 sm:gap-10">
             <div>
               <img
                 src="../2560px-Ecobank_Logo 1.png"
                 alt=""
-                className="object-contain"
+                className="object-contain w-14 sm:w-auto h-auto"
               />
             </div>
             <div>
@@ -23,21 +25,21 @@ const Home = () => {
               <img
                 src="../gateway-logo.png"
                 alt=""
-                className="object-contain"
+                className="object-contain w-14 sm:w-auto h-auto"
               />
             </div>
             <div>
               <img
                 src="../933-9335264_gcb-bank-gcb-bank-ltd copy.png"
                 alt=""
-                className="object-contain"
+                className="object-contain w-14 sm:w-auto h-auto"
               />
             </div>
             <div>
               <img
                 src="../Xyx5kQzA_400x400 copy.png"
                 alt=""
-                className="object-contain"
+                className="object-contain w-14 sm:w-auto h-auto"
               />
             </div>
           </div>
@@ -61,7 +63,7 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="mt-20 md:mt-0">
+            <div className="mt-20 lg:mt-0">
               <h1 className="text-[3rem] font-bold md:max-w-[33.5rem] text-white">
                 <span className="text-primary-purple">Why Invest in Us:</span>{" "}
                 Your Path to Financial Success
@@ -100,7 +102,7 @@ const Home = () => {
                   <p className="text-devtraco-white">Employees</p>
                 </div>
               </div>
-              <div className="mt-5 flex flex-row items-center space-x-4">
+              <div className="mt-5 flex flex-wrap  flex-row items-center sm:space-x-4">
                 <Button text="Find out More" isIcon={true} />
                 <Button text="Contact Us" isIcon={false} />
               </div>
@@ -110,8 +112,8 @@ const Home = () => {
       </section>
       <section className="bg-devtraco-blue py-5 md:py-10">
         <div className="container mx-auto">
-          <div className="flex flex-col md:flex-row items-start justify-between space-y-6 md:space-y-0 md:space-x-4">
-            <div className="group/card h-[39rem] w-full md:w-[27rem] flex flex-col items-left justify-end px-8 py-10 bg-extra-1 hover:bg-extra-hover-1 bg-cover bg-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-6 gap-4">
+            <div className="group/card h-[39rem] w-full  flex flex-col items-left justify-end px-8 py-10 bg-extra-1 hover:bg-extra-hover-1 bg-cover bg-center">
               <div>
                 <h4 className="text-white font-bold text-3xl">
                   Strategic Partnerships
@@ -121,7 +123,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="group/card h-[39rem] w-full md:w-[27rem] flex flex-col items-left justify-end px-8 py-10 bg-extra-2 hover:bg-extra-hover-2 bg-cover bg-center">
+            <div className="group/card h-[39rem] w-full  flex flex-col items-left justify-end px-8 py-10 bg-extra-2 hover:bg-extra-hover-2 bg-cover bg-center">
               <div>
                 <h4 className="text-white font-bold text-3xl">
                   Investors Benefits
@@ -131,7 +133,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="group/card h-[39rem] w-full md:w-[27rem] flex flex-col items-left justify-end bg-extra-3 hover:bg-extra-hover-3 px-8 py-10 bg-card-gradient bg-cover bg-center">
+            <div className="group/card h-[39rem] w-full flex flex-col items-left justify-end bg-extra-3 hover:bg-extra-hover-3 px-8 py-10 bg-card-gradient bg-cover bg-center">
               <div>
                 <h4 className="text-white font-bold text-3xl">
                   Experienced Team
@@ -163,7 +165,7 @@ const Home = () => {
             <Button text="Find out More" isIcon={true} />
           </div>
           <div className="my-10">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
               {/* service card */}
               <div className="group bg-no-repeat bg-service-card-1 hover:bg-service-card-hover bg-cover py-10 px-10 col-auto md:col-span-2 transition-all ease-in-out duration-500 delay-[500ms]">
                 <div className="flex flex-row items-center justify-between">
@@ -430,7 +432,7 @@ const Home = () => {
             </p>
             <Button text="Find out More" isIcon={true} />
           </div>
-          <div className="grid  grid-cols-1 md:grid-cols-3 gap-y-10 gap-4 py-20">
+          <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-4 py-20">
             <div className="w-full md:max-w-[26rem]">
               <div className="relative group/sub">
                 <img
@@ -713,6 +715,215 @@ const Home = () => {
                 signature cocktails.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-28 bg-devtraco-blue">
+        <div className="container mx-auto">
+          <div className="flex flex-col md:flex-row items-start md:items-end justify-between space-y-6 md:space-x-10">
+            <div>
+              <span className="text-primary-purple">_Our Services</span>
+              <h1 className="text-[3rem] text-white font-bold max-w-[36rem]">
+                Creating Legacies: Our Remarkable Portfolio
+              </h1>
+            </div>
+            <p className="max-w-[30rem] text-white">
+              We proudly showcase our exceptional projects that have left a
+              lasting imprint on the real estate landscape. From ongoing
+              developments to successfully completed ventures, each project
+              represents our unwavering commitment to excellence, innovation,
+              and sustainability.
+            </p>
+            <Button text="More Projects" isIcon={true} />
+          </div>
+          {/* Tab Gallery */}
+          <TabGallery />
+        </div>
+      </section>
+      <section className="bg-devtraco-blue py-24">
+        <div className="container mx-auto">
+          <div className="flex flex-col lg:flex-row items-start justify-between gap-y-14 space-x-0 lg:space-x-20">
+            <div className="w-full lg:max-w-[39rem]">
+              <span className="text-primary-purple">_Contact Us</span>
+              <h1 className="text-[3rem] text-white max-w-lg">
+                Let's Start Building Together
+              </h1>
+
+              <form>
+                <div className="grid grid-cols-2 gap-y-4 gap-4 my-6">
+                  <div>
+                    <label htmlFor="firstname" className="sr-only">
+                      First Name
+                    </label>
+                    <input
+                      type="text"
+                      name="firstname"
+                      id="firstname"
+                      autoComplete="off"
+                      className="focus:ring-devtraco-primary-blue placeholder:text-gray-50  text-white outline-none focus:ring mt-1 p-3 focus:border-devtraco-primary-blue border border-0.5 border-white bg-transparent flex-1 block w-full rounded-[0.5rem] sm:text-sm"
+                      placeholder="First Name"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="lastname" className="sr-only">
+                      Last Name
+                    </label>
+                    <input
+                      type="text"
+                      name="lastname"
+                      id="lastname"
+                      autoComplete="off"
+                      className="focus:ring-devtraco-primary-blue placeholder:text-gray-50 outline-none text-white focus:ring mt-1 p-3 focus:border-devtraco-primary-blue border border-0.5 border-white bg-transparent flex-1 block w-full rounded-[0.5rem] sm:text-sm"
+                      placeholder="Last Name"
+                    />
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 gap-y-4 gap-4 my-6">
+                  <div className="flex items-center space-x-2 focus:ring-devtraco-primary-blue  focus:ring mt-1 py-3 pr-3 focus:border-devtraco-primary-blue border border-0.5 border-white bg-transparent w-full rounded-[0.5rem] ">
+                    <label htmlFor="email" className="sr-only">
+                      First Name
+                    </label>
+                    <span className="p-0">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        viewBox="0 0 25 25"
+                        fill="none"
+                      >
+                        <path
+                          d="M13.1167 19.3721C13.1167 19.0321 13.1567 18.7021 13.2067 18.3721H4.1167V8.37207L12.1167 13.3721L20.1167 8.37207V13.4621C20.8367 13.5821 21.5067 13.8321 22.1167 14.1821V6.37207C22.1167 5.27207 21.2167 4.37207 20.1167 4.37207H4.1167C3.0167 4.37207 2.1167 5.27207 2.1167 6.37207V18.3721C2.1167 19.4721 3.0167 20.3721 4.1167 20.3721H13.2067C13.1567 20.0421 13.1167 19.7121 13.1167 19.3721ZM20.1167 6.37207L12.1167 11.3721L4.1167 6.37207H20.1167ZM17.8667 22.5321L15.1167 19.5321L16.2767 18.3721L17.8667 19.9621L21.4567 16.3721L22.6167 17.7821L17.8667 22.5321Z"
+                          fill="#F9FAFB"
+                        />
+                      </svg>
+                    </span>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      autoComplete="off"
+                      className="border-0 focus:outline-0 placeholder:text-gray-50 border-transparent p-0 focus:ring-0 text-white bg-transparent sm:text-sm w-full outline-none"
+                      placeholder="Email Address"
+                    />
+                  </div>
+                  <div className="flex items-center space-x-2 focus:ring-devtraco-primary-blue  focus:ring mt-1  pr-3 focus:border-devtraco-primary-blue border border-0.5 border-white bg-transparent w-full rounded-[0.5rem] ">
+                    <label htmlFor="phone" className="sr-only">
+                      Phone Number
+                    </label>
+                    <span className="p-0">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="24"
+                        viewBox="0 0 25 24"
+                        fill="none"
+                      >
+                        <path
+                          d="M21.6816 16.162V18.7588C21.6826 18.9999 21.631 19.2385 21.5303 19.4594C21.4295 19.6803 21.2817 19.8786 21.0963 20.0415C20.911 20.2045 20.6921 20.3286 20.4538 20.4058C20.2155 20.4831 19.963 20.5117 19.7125 20.49C16.9331 20.2006 14.2632 19.2904 11.9175 17.8326C9.73512 16.5036 7.88484 14.7304 6.49806 12.639C4.97156 10.3808 4.02159 7.80976 3.7251 5.13418C3.70253 4.89481 3.73222 4.65356 3.81227 4.42579C3.89232 4.19801 4.02098 3.98871 4.19006 3.8112C4.35915 3.63369 4.56494 3.49187 4.79435 3.39476C5.02377 3.29765 5.27176 3.24738 5.52256 3.24715H8.23228C8.67063 3.24302 9.09559 3.39178 9.42796 3.6657C9.76033 3.93963 9.97742 4.32003 10.0388 4.736C10.1531 5.56704 10.3652 6.38301 10.671 7.16835C10.7926 7.47817 10.8189 7.81489 10.7468 8.1386C10.6748 8.4623 10.5074 8.75944 10.2646 8.99478L9.11746 10.0941C10.4033 12.2612 12.2756 14.0555 14.5369 15.2877L15.684 14.1884C15.9296 13.9557 16.2397 13.7953 16.5774 13.7263C16.9152 13.6572 17.2666 13.6824 17.5899 13.7989C18.4094 14.092 19.2608 14.2952 20.128 14.4048C20.5667 14.4641 20.9675 14.6759 21.2539 14.9999C21.5403 15.3239 21.6925 15.7375 21.6816 16.162Z"
+                          stroke="#F9FAFB"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <input
+                      type="tel"
+                      name="phone"
+                      id="phone"
+                      autoComplete="off"
+                      className="border-0 placeholder:text-gray-50 focus:outline-0 border-transparent p-0 focus:ring-0 text-white bg-transparent sm:text-sm w-full outline-none"
+                      placeholder="Phone Number"
+                    />
+                  </div>
+                </div>
+                <div class="my-6">
+                  <label htmlFor="intrest" className="sr-only">
+                    Intersted In
+                  </label>
+                  <select
+                    id="interest"
+                    name="interest"
+                    autocomplete="off"
+                    class="focus:ring-devtraco-primary-blue text-white outline-none focus:ring mt-1 p-3 focus:border-devtraco-primary-blue border border-0.5 border-white bg-transparent flex-1 block w-full rounded-[0.5rem]  sm:text-sm sm:leading-6"
+                  >
+                    <option className="text-black">
+                      I need Assistance with
+                    </option>
+                    <option className="text-devtraco-blue">Canada</option>
+                    <option className="text-devtraco-blue">Mexico</option>
+                  </select>
+                </div>
+                <div className="my-6">
+                  <label htmlFor="message" className="sr-only">
+                    Message
+                  </label>
+
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="7"
+                    placeholder="Message"
+                    className="focus:ring-devtraco-primary-blue text-white outline-none focus:ring mt-1 p-3 focus:border-devtraco-primary-blue border border-0.5 border-white bg-transparent flex-1 block w-full rounded-[0.5rem]  sm:text-sm sm:leading-6"
+                  >
+                    Message
+                  </textarea>
+                </div>
+                <button
+                  type="submit"
+                  className="flex items-center py-3 px-5 font-medium bg-white space-x-3 justify-center"
+                >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_266_8205)">
+                        <path
+                          d="M22.1167 5.87207H9.1167C8.0167 5.87207 7.1167 6.77207 7.1167 7.87207V16.8721C7.1167 17.4025 7.32741 17.9112 7.70249 18.2863C8.07756 18.6614 8.58627 18.8721 9.1167 18.8721H22.1167C23.2267 18.8721 24.1167 17.9821 24.1167 16.8721V7.87207C24.1167 7.34164 23.906 6.83293 23.5309 6.45786C23.1558 6.08278 22.6471 5.87207 22.1167 5.87207ZM22.1167 16.8721H9.1167V9.54207L15.6167 12.8721L22.1167 9.54207V16.8721ZM15.6167 11.1821L9.1167 7.87207H22.1167L15.6167 11.1821ZM5.1167 16.8721C5.1167 17.0421 5.1467 17.2021 5.1667 17.3721H1.1167C0.564699 17.3721 0.116699 16.9221 0.116699 16.3721C0.116699 15.8221 0.564699 15.3721 1.1167 15.3721H5.1167V16.8721ZM3.1167 7.37207H5.1667C5.1467 7.54207 5.1167 7.70207 5.1167 7.87207V9.37207H3.1167C2.5667 9.37207 2.1167 8.92207 2.1167 8.37207C2.1167 7.82207 2.5667 7.37207 3.1167 7.37207ZM1.1167 12.3721C1.1167 11.8221 1.5667 11.3721 2.1167 11.3721H5.1167V13.3721H2.1167C1.5667 13.3721 1.1167 12.9221 1.1167 12.3721Z"
+                          fill="#070D28"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_266_8205">
+                          <rect
+                            width="24"
+                            height="24"
+                            fill="white"
+                            transform="translate(0.116699 0.37207)"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span>Send a Message</span>
+                </button>
+              </form>
+            </div>
+            <div className="w-full lg:max-w-xl">
+              <img
+                src="../facade-modern-building-with-geometric-windows-curved-walls 1.jpg"
+                alt=""
+                className="w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-24 bg-devtraco-neutral-100">
+        <div className="container mx-auto">
+          <div>
+            <h1 className="text-[3rem] font-bold text-devtraco-blue">
+              Testimonials
+            </h1>
+            {/* Testimonial Slider Component */}
+            <Testimonial />
+             
           </div>
         </div>
       </section>
