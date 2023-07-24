@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { pageSlide, pageTransition } from "../lib/framer-motion";
+import { pageTransition, pageZoom } from "../lib/framer-motion";
 import { headerRoutes } from "../routes/routes";
 import { Link } from "react-router-dom";
 
@@ -12,7 +12,7 @@ const GallerryCard = ({ id, image, title, units, largeThumb }, index) => {
                     initial="initial"
                     animate="in"
                     exit="out"
-                    variants={pageSlide}
+                    variants={pageZoom}
                     transition={pageTransition}
                     key={index}
                     className={`text-white group cursor-pointer ${largeThumb && "col-span-2"

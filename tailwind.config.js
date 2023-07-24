@@ -18,6 +18,7 @@ module.exports = {
       },
       borderColor: {
         "devtraco-primary-blue": "#ABBAFF",
+        "devtraco-blue": "#070D28",
       },
       backgroundImage: {
         "hero-pattern":

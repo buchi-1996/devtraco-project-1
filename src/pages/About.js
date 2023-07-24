@@ -1,6 +1,8 @@
 import React from "react";
 import headerBg from "../assets/Rectangle-3886.jpg";
 import PageBanner from "../components/PageBanner";
+import Button from "../components/Button";
+import TeamSlider from "../components/TeamSlider";
 
 const About = () => {
   return (
@@ -368,6 +370,81 @@ const About = () => {
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-28 bg-devtraco-blue">
+        <div className="container mx-auto">
+          <div className="flex flex-col md:flex-row items-start md:items-end justify-between space-y-6 md:space-x-10">
+            <div>
+              <span className="text-devtraco-white">_Meet Our Team</span>
+              <h1 className="text-[3rem] text-white font-bold max-w-[36rem]">
+                Devtraco Senior Management Team
+              </h1>
+            </div>
+            <p className="max-w-[30rem] text-white">
+              Our team's collective experience, dedication, and innovative
+              thinking enable us to deliver outstanding results, exceed
+              expectations, and ensure customer satisfaction.
+            </p>
+            <Button text="Find out More" isIcon={true} />
+          </div>
+          {/* Team Slider */}
+          <TeamSlider />
+        </div>
+      </section>
+      <section className="py-24">
+        <div className="container mx-auto">
+          <div className="flex flex-col md:flex-row items-start md:items-end space-y-6 md:space-x-5">
+            <div>
+              <span className="text-primary-purple">_Our Properties</span>
+              <h1 className="text-[3rem] text-devtraco-blue font-bold max-w-[36rem]">
+                Award Winning Developers
+              </h1>
+            </div>
+            <p className="max-w-xl text-devtraco-blue">
+              We proudly showcase our exceptional projects that have left a
+              lasting imprint on the real estate landscape. From ongoing
+              developments to successfully completed ventures, each project
+              represents our unwavering commitment to excellence, innovation,
+              and sustainability.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 my-12">
+            <div className="grid grid-cols-4 sm:grid-cols-5 gap-2">
+              <div>
+                <img src="../African-Property-Awards-2019 1.jpg" alt="" className="w-[7rem] h-[21rem]" />
+              </div>
+              <div>
+                <img src="../African-Property-Awards-2019 1.jpg" alt="" className="w-[7rem] h-[21rem]" />
+              </div>
+              <div>
+                <img src="../African-Property-Awards-2019 1.jpg" alt="" className="w-[7rem] h-[21rem]" />
+              </div>
+              <div>
+                <img src="../African-Property-Awards-2019 1.jpg" alt="" className="w-[7rem] h-[21rem]" />
+              </div>
+              <div>
+                <img src="../African-Property-Awards-2019 1.jpg" alt="" className="w-[7rem] h-[21rem]" />
+              </div>
+              <div>
+                <img src="../African-Property-Awards-2019 1.jpg" alt="" className="w-[7rem] h-[21rem]" />
+              </div>
+              <div>
+                <img src="../African-Property-Awards-2019 1.jpg" alt="" className="w-[7rem] h-[21rem]" />
+              </div>
+              <div>
+                <img src="../African-Property-Awards-2019 1.jpg" alt="" className="w-[7rem] h-[21rem]" />
+              </div>
+            </div>
+            <div className="">
+              <div className="mb-4">
+                <img src="nova-renders-6.jpg" alt="" className="w-full h-auto object-cover" />
+              </div>
+              <div>
+                <img src="sold-out-tag_the-edge.jpg" alt="" className="w-full h-auto" />
               </div>
             </div>
           </div>

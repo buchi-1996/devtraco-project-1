@@ -21,15 +21,15 @@ const pageTransition = {
   const pageZoom = {
     initial: {
       opacity: 0,
-    //   scale: 0.5,
+      scale: 0.5,
     },
     in: {
       opacity: 1,
-    //   scale: 1,
+      scale: 1,
     },
     out: {
       opacity: 0,
-    //   scale: 0.5,
+      scale: 0.5,
     },
   };
   
