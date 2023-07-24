@@ -57,7 +57,7 @@ const Contact = () => {
           <div className="flex flex-col lg:flex-row items-start justify-between gap-y-14 space-x-0 lg:space-x-20">
             <div className="w-full lg:max-w-[39rem]">
               <span className="text-primary-purple">_Contact Us</span>
-              <h1 className="text-[3rem] text-white max-w-lg">
+              <h1 className="text-[3rem] text-devtraco-blue max-w-lg">
                 Let's Start Building Together
               </h1>
 

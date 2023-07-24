@@ -149,7 +149,7 @@ const Hero = () => {
             exit="out"
             variants={pageSlide}
             transition={pageTransition}
-            className="flex flex-row space-x-6 bg-devtraco-blue bg-opacity-50 rounded-3xl box-border    place-self-start py-5 pl-5 pr-5 sm:pr-8"
+            className="flex flex-row space-x-6 bg-devtraco-blue bg-opacity-50 rounded-3xl box-border place-self-start py-5 pl-5 pr-5 sm:pr-8"
           >
             <div
               ref={ref}

@@ -50,6 +50,7 @@ module.exports = {
         "devtraco-blue": "#070D28",
         "devtraco-primary-blue": "#ABBAFF",
         "devtraco-neutral-100": "#F4F4F4",
+        "primary-purple": "#4E64CF",
       },
 
       textColor: {
