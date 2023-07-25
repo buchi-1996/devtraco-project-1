@@ -55,7 +55,7 @@ const tabItems = [
 
 const tabMenus = ["all projects", "completed", "ongoing", "upcoming"];
 
-const TabGallery = () => {
+const TabGallery = ({onDarkBg}) => {
     const [pane, setPane] = useState("all projects");
     const [activeIndex, setActiveIndex] = useState(0);
 
@@ -73,10 +73,10 @@ const TabGallery = () => {
                     <button
                         key={index}
                         onClick={(e) => handleSelectTab(e, index)}
-                        className={`${activeIndex === index
-                                ? "bg-white text-devtraco-blue"
-                                : "bg-transparent text-white"
-                            }  border flex flex-row flex-none  text-xs md:text-sm items center hover:text-devtraco-blue space-x-4 border-white rounded pt-2.5 pb-2 px-7 transition-all group hover:bg-white capitalize`}
+                        className={`${(activeIndex === index)
+                                ?  `${onDarkBg ? 'bg-white text-devtraco-blue ' : 'bg-devtraco-blue text-white'} `
+                                : `${onDarkBg ? 'bg-transparent text-white' : 'bg-transparent text-devtraco-blue'} `}
+                            }  border flex flex-row flex-none font-medium  text-xs md:text-sm items center ${onDarkBg ? 'hover:text-devtraco-blue' : 'hover:text-white'}  space-x-4 ${onDarkBg ? 'border-white' : 'border-devtraco-blue'} rounded pt-2.5 pb-2 px-7 transition-all group ${onDarkBg ? 'hover:bg-white' : 'hover:bg-devtraco-blue'}  capitalize`}
                     >
                         {menu}
                     </button>

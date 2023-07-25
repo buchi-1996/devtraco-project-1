@@ -738,7 +738,7 @@ const Home = () => {
             <Button text="More Projects" isIcon={true} />
           </div>
           {/* Tab Gallery */}
-          <TabGallery />
+          <TabGallery onDarkBg={true} />
         </div>
       </section>
       <section className="bg-devtraco-blue py-24">
