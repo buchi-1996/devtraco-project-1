@@ -57,7 +57,7 @@ const MobileMenu = () => {
               </svg>
             </button>
           </div>
-          <ul className='sm:ml-10 md:max-w-sm flex flex-col mt-24 space-y-6'>
+          <ul className='sm:ml-10 md:max-w-sm flex flex-col mt-14 md:mt-24 space-y-4 md:space-y-6'>
             <li className="">
               <Link to={headerRoutes.About}>
                 <div onClick={() => dispatch({ type: 'IS_MOBILE_OPEN' })} className='uppercase text-white py-2 cursor-pointer flex flex-row item-center justify-between transform hover:scale-105 transition-all ease-in-out duration-300'>
