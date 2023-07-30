@@ -441,10 +441,10 @@ const About = () => {
             </div>
             <div className="">
               <div className="mb-4">
-                <img src="nova-renders-6.jpg" alt="" className="w-full h-auto object-cover" />
+                <img src="../nova-renders-6.jpg" alt="" className="w-full h-auto object-cover" />
               </div>
               <div>
-                <img src="sold-out-tag_the-edge.jpg" alt="" className="w-full h-auto" />
+                <img src="../sold-out-tag_the-edge.jpg" alt="" className="w-full h-auto" />
               </div>
             </div>
           </div>

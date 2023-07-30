@@ -1,11 +1,11 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { headerRoutes } from "../routes/routes";
-import AppState from "../context/AppState";
+import useStateValue from "../hooks/useStateValue";
 
 const Header = () => {
   const [isShow, setIsShow] = useState(false);
-  const { dispatch } = useContext(AppState);
+  const { dispatch } = useStateValue();
 
 
   const showTransition = () => {
@@ -28,7 +28,7 @@ const Header = () => {
     >
       <div className="container mx-auto">
         <nav className="flex flex-row items-center justify-between space-x-4">
-          <ul className="hidden md:flex flex-row items-center space-x-6 lg:space-x-14">
+          {/* <ul className="hidden md:flex flex-row items-center space-x-6 lg:space-x-14">
             <Link to={headerRoutes.About}>
               <li className="uppercase text-white cursor-pointer hover:text-devtraco-primary-blue transition-all">About</li>
             </Link>
@@ -38,7 +38,7 @@ const Header = () => {
             <Link to={headerRoutes.Branches}>
               <li className="uppercase text-white cursor-pointer hover:text-devtraco-primary-blue transition-all">Branches</li>
             </Link>
-          </ul>
+          </ul> */}
           <div className="logo flex-none">
             <Link to={headerRoutes.Home}>
               <img
@@ -48,7 +48,7 @@ const Header = () => {
               />
             </Link>
           </div>
-          <ul className="hidden md:flex flex-row items-center space-x-6 lg:space-x-14">
+          {/* <ul className="hidden md:flex flex-row items-center space-x-6 lg:space-x-14">
             <Link to={headerRoutes.Partners}>
               <li className="uppercase text-white cursor-pointer hover:text-devtraco-primary-blue transition-all">
                 Investor Benefits
@@ -62,10 +62,10 @@ const Header = () => {
             <Link to={headerRoutes.Contact}>
               <li className="uppercase text-white cursor-pointer hover:text-devtraco-primary-blue transition-all">Contact</li>
             </Link>
-          </ul>
+          </ul> */}
           <button
             onClick={() => dispatch({ type: "IS_MOBILE_OPEN" })}
-            className="hamburger block md:hidden cursor-pointer "
+            className="hamburger cursor-pointer "
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 49 49" fill="none">
               <g clip-path="url(#clip0_359_8672)">

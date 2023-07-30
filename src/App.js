@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence, LayoutGroup } from "framer-motion";
 import Home from "./pages/Home";
 import Header from "./components/Header";
-import { AnimatePresence, LayoutGroup } from "framer-motion";
 import SplashScreen from "./components/SplashScreen";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
@@ -16,6 +16,8 @@ import HeaderMain from "./components/HeaderMain";
 import { headerRoutes } from "./routes/routes";
 import MobileMenu from "./components/MobileMenu";
 import Property from "./pages/Property";
+import Properties from "./pages/Properties";
+import InvestorBenefits from "./pages/InvestorBenefits";
 
 function App() {
   const [isWelcome, setIsWelcome] = useState(true);
@@ -35,7 +37,7 @@ function App() {
   }
 
   return (
-    <div className={`app `}>
+    <div className={`app`}>
       <AnimatePresence mode="wait">
         <LayoutGroup>
           {isHome ? <Header /> : <HeaderMain />}
@@ -43,9 +45,11 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path={headerRoutes.About} element={<About />} />
             <Route path={headerRoutes.Team} element={<Team />} />
+            <Route path={headerRoutes.Properties} element={<Properties />} />
             <Route path={`${headerRoutes.Property}/:id`} element={<Property />} />
             <Route path={headerRoutes.Branches} element={<Branches />} />
             <Route path={headerRoutes.Partners} element={<Partners />} />
+            <Route path={headerRoutes.InvestorBenefits} element={<InvestorBenefits />} />
             <Route path={headerRoutes.Services} element={<Services />} />
             <Route path={headerRoutes.Contact} element={<Contact />} />
             <Route path={headerRoutes.NotFound} element={<NotFound />} />
@@ -53,7 +57,7 @@ function App() {
           <Footer />
         </LayoutGroup>
       </AnimatePresence>
-      <MobileMenu/>
+      <MobileMenu />
     </div>
   );
 }

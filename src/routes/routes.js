@@ -4,9 +4,11 @@ export const headerRoutes = {
     Home: '/',
     About: '/about',
     Team: '/team',
+    Properties: '/properties',
     Property: `/property`,
     Branches: '/branches',
-    Partners: '/investor-benefits',
+    InvestorBenefits: '/investor-benefits',
+    Partners: '/partners',
     Services: '/services',
     Contact: '/contact',
     NotFound: '/*'

@@ -1,21 +1,23 @@
-import React, { useContext } from 'react'
-// import { Link } from 'react-router-dom';
-// import { headerRoutes } from '../routes/routes';
-import AppState from '../context/AppState';
+import React from 'react'
+import { Link } from 'react-router-dom';
+import { headerRoutes } from '../routes/routes';
+import useStateValue from '../hooks/useStateValue';
 
 const MobileMenu = () => {
-  const {state, dispatch} = useContext(AppState);
+  const { state, dispatch } = useStateValue()
 
-  
+
 
   return (
-    <div  style={{transform: `${!state.isMobileOpen ? 'translateX(100%)' : 'translateX(0%)'}`}} className={`transition ease-in-out duration-300 fixed z-50 inset-0 bg-blue-50 backdrop-blur-md bg-opacity-50`}>
-        <div style={{transform: `${!state.isMobileOpen ? 'translateX(100%)' : 'translateX(0%)'}`}} className="transition ease-in-out duration-300 delay-200 h-full w-[80%] md:w-2/5 bg-devtraco-blue bg-opacity-80 absolute right-0 py-10 px-8">
-          <nav>
-            <div className="flex flex-row items-center justify-between">
+    <div style={{ transform: `${!state.isMobileOpen ? 'translateX(100%)' : 'translateX(0%)'}` }} className={`transition ease-in-out duration-300 fixed z-50 inset-0 bg-blue-50 backdrop-blur-md bg-opacity-50`}>
+      <div style={{ transform: `${!state.isMobileOpen ? 'translateX(100%)' : 'translateX(0%)'}` }} className="transition ease-in-out duration-300 delay-200 h-full w-[80%] md:w-2/5 bg-devtraco-blue bg-opacity-90 absolute right-0 py-10 px-8">
+        <nav>
+          <div className="flex flex-row items-center justify-between">
+            <div onClick={() => dispatch({ type: 'IS_MOBILE_OPEN' })}>
+            <Link to={headerRoutes.Home}>
               <span>
                 <svg
-                className='w-12 h-12'
+                  className='w-[3rem] h-[3rem]'
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 62 50"
                   fill="none"
@@ -34,56 +36,117 @@ const MobileMenu = () => {
                   />
                 </svg>
               </span>
-              <button onClick={() => dispatch({type: 'IS_MOBILE_OPEN'})} className="cursor-pointer">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
-                  viewBox="0 0 33 33"
-                  fill="none"
-                >
-                  <path
-                    d="M16.5938 2.34705C8.79375 2.34705 2.59375 8.54705 2.59375 16.347C2.59375 24.147 8.79375 30.347 16.5938 30.347C24.3937 30.347 30.5938 24.147 30.5938 16.347C30.5938 8.54705 24.3937 2.34705 16.5938 2.34705ZM16.5938 28.347C9.99375 28.347 4.59375 22.947 4.59375 16.347C4.59375 9.74705 9.99375 4.34705 16.5938 4.34705C23.1938 4.34705 28.5938 9.74705 28.5938 16.347C28.5938 22.947 23.1938 28.347 16.5938 28.347Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M21.9937 23.347L16.5938 17.947L11.1938 23.347L9.59375 21.747L14.9937 16.347L9.59375 10.947L11.1938 9.34705L16.5938 14.747L21.9937 9.34705L23.5938 10.947L18.1938 16.347L23.5938 21.747L21.9937 23.347Z"
-                    fill="white"
-                  />
-                </svg>
-              </button>
+            </Link>
             </div>
-             {/* <ul>
-              <Link to={headerRoutes.Partners}>
-                <li className="uppercase text-white cursor-pointer">
-                  Investor Benefits
-                </li>
+            <button onClick={() => dispatch({ type: 'IS_MOBILE_OPEN' })} className="cursor-pointer xl:mr-10">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="0 0 33 33"
+                fill="none"
+              >
+                <path
+                  d="M16.5938 2.34705C8.79375 2.34705 2.59375 8.54705 2.59375 16.347C2.59375 24.147 8.79375 30.347 16.5938 30.347C24.3937 30.347 30.5938 24.147 30.5938 16.347C30.5938 8.54705 24.3937 2.34705 16.5938 2.34705ZM16.5938 28.347C9.99375 28.347 4.59375 22.947 4.59375 16.347C4.59375 9.74705 9.99375 4.34705 16.5938 4.34705C23.1938 4.34705 28.5938 9.74705 28.5938 16.347C28.5938 22.947 23.1938 28.347 16.5938 28.347Z"
+                  fill="white"
+                />
+                <path
+                  d="M21.9937 23.347L16.5938 17.947L11.1938 23.347L9.59375 21.747L14.9937 16.347L9.59375 10.947L11.1938 9.34705L16.5938 14.747L21.9937 9.34705L23.5938 10.947L18.1938 16.347L23.5938 21.747L21.9937 23.347Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+          <ul className='sm:ml-10 md:max-w-sm flex flex-col mt-24 space-y-6'>
+            <li className="">
+              <Link to={headerRoutes.About}>
+                <div onClick={() => dispatch({ type: 'IS_MOBILE_OPEN' })} className='uppercase text-white py-2 cursor-pointer flex flex-row item-center justify-between transform hover:scale-105 transition-all ease-in-out duration-300'>
+                  <span>ABOUT DEVTRACO GROUP</span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <path d="M7.97363 16.8159L15.947 8.84253M15.947 8.84253V16.497M15.947 8.84253H8.29257" stroke="white" stroke-width="0.664449" stroke-linecap="round" stroke-linejoin="round" />
+                    <circle cx="11.9603" cy="12.8292" r="11.6279" stroke="#F9FAFB" stroke-width="0.664449" />
+                  </svg></span>
+                </div>
               </Link>
-              <Link to={headerRoutes.Services}>
-                <li className="uppercase text-white cursor-pointer">
-                  Properties
+
+              <ul>
+                <li onClick={() => dispatch({ type: 'IS_MOBILE_OPEN' })} className='uppercase text-[#B4B4B5] py-2 cursor-pointer'>
+                  <Link to={headerRoutes.Services}>
+                    <div className='flex flex-row item-center justify-between transform hover:scale-105 transition-all ease-in-out duration-300'>
+                      <span className='ml-10'>OUR SERVICES</span>
+
+                    </div>
+                  </Link>
                 </li>
+                <li onClick={() => dispatch({ type: 'IS_MOBILE_OPEN' })} className='uppercase text-[#B4B4B5] py-2 cursor-pointer'>
+                  <Link to={headerRoutes.Partners}>
+                    <div className='flex flex-row item-center justify-between transform hover:scale-105 transition-all ease-in-out duration-300'>
+                      <span className='ml-10'>STRATEGIC PARTNERS</span>
+
+                    </div>
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li onClick={() => dispatch({ type: 'IS_MOBILE_OPEN' })} className="uppercase py-2 text-white cursor-pointer transform hover:scale-105 transition-all ease-in-out duration-300">
+              <Link to={headerRoutes.Team}>
+                <div className='flex flex-row item-center justify-between '>
+                  <span>Our experienced team</span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <path d="M7.97363 16.8159L15.947 8.84253M15.947 8.84253V16.497M15.947 8.84253H8.29257" stroke="white" stroke-width="0.664449" stroke-linecap="round" stroke-linejoin="round" />
+                    <circle cx="11.9603" cy="12.8292" r="11.6279" stroke="#F9FAFB" stroke-width="0.664449" />
+                  </svg></span>
+                </div>
               </Link>
+            </li>
+            <li onClick={() => dispatch({ type: 'IS_MOBILE_OPEN' })} className="uppercase py-2 text-white cursor-pointer transform hover:scale-105 transition-all ease-in-out duration-300">
+              <Link to={headerRoutes.Branches}>
+                <div className='flex flex-row item-center justify-between '>
+                  <span>Our Branches</span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <path d="M7.97363 16.8159L15.947 8.84253M15.947 8.84253V16.497M15.947 8.84253H8.29257" stroke="white" stroke-width="0.664449" stroke-linecap="round" stroke-linejoin="round" />
+                    <circle cx="11.9603" cy="12.8292" r="11.6279" stroke="#F9FAFB" stroke-width="0.664449" />
+                  </svg></span>
+                </div>
+              </Link>
+            </li>
+            <li onClick={() => dispatch({ type: 'IS_MOBILE_OPEN' })} className="uppercase py-2 text-white cursor-pointer transform hover:scale-105 transition-all ease-in-out duration-300">
+              <Link to={headerRoutes.InvestorBenefits}>
+                <div className='flex flex-row item-center justify-between '>
+                  <span>Investor Benefits</span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <path d="M7.97363 16.8159L15.947 8.84253M15.947 8.84253V16.497M15.947 8.84253H8.29257" stroke="white" stroke-width="0.664449" stroke-linecap="round" stroke-linejoin="round" />
+                    <circle cx="11.9603" cy="12.8292" r="11.6279" stroke="#F9FAFB" stroke-width="0.664449" />
+                  </svg></span>
+                </div>
+              </Link>
+            </li>
+            <li onClick={() => dispatch({ type: 'IS_MOBILE_OPEN' })} className="uppercase py-2 text-white cursor-pointer transform hover:scale-105 transition-all ease-in-out duration-300">
+              <Link to={headerRoutes.Properties}>
+                <div className='flex flex-row item-center justify-between '>
+                  <span>Properties</span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <path d="M7.97363 16.8159L15.947 8.84253M15.947 8.84253V16.497M15.947 8.84253H8.29257" stroke="white" stroke-width="0.664449" stroke-linecap="round" stroke-linejoin="round" />
+                    <circle cx="11.9603" cy="12.8292" r="11.6279" stroke="#F9FAFB" stroke-width="0.664449" />
+                  </svg></span>
+                </div>
+              </Link>
+            </li>
+            <li onClick={() => dispatch({ type: 'IS_MOBILE_OPEN' })} className="uppercase py-2 text-white cursor-pointer transform hover:scale-105 transition-all ease-in-out duration-300">
               <Link to={headerRoutes.Contact}>
-                <li className="uppercase text-white cursor-pointer">Contact</li>
+                <div className='flex flex-row item-center justify-between '>
+                  <span>Contact Us</span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <path d="M7.97363 16.8159L15.947 8.84253M15.947 8.84253V16.497M15.947 8.84253H8.29257" stroke="white" stroke-width="0.664449" stroke-linecap="round" stroke-linejoin="round" />
+                    <circle cx="11.9603" cy="12.8292" r="11.6279" stroke="#F9FAFB" stroke-width="0.664449" />
+                  </svg></span>
+                </div>
               </Link>
-              <Link to={headerRoutes.Partners}>
-                <li className="uppercase text-white cursor-pointer">
-                  Investor Benefits
-                </li>
-              </Link>
-              <Link to={headerRoutes.Services}>
-                <li className="uppercase text-white cursor-pointer">
-                  Properties
-                </li>
-              </Link>
-              <Link to={headerRoutes.Contact}>
-                <li className="uppercase text-white cursor-pointer">Contact</li>
-              </Link>
-            </ul> */}
-          </nav>
-        </div>
+            </li>
+          </ul>
+        </nav>
       </div>
+    </div>
   )
 }
 

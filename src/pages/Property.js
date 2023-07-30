@@ -83,28 +83,28 @@ const Property = () => {
               <div className='bg-gray-100 py-10 px-8 min-w-full'>
                 <h1 className='text-[3rem] mb-4'>The Pelican</h1>
                 <p className='text-[1rem]'>The New gold standard in passive income. Secure a stake in what will become the premier choice for a night of luxury in the heart of one Accra’s prime neighburhoods. Earn returns as your apartment is operated for you or take a visit yourself and enjoy your money’s worth</p>
-                <hr className='my-10 bg-devtraco-blue h-2 rounded' />
+                <hr className='my-10 bg-devtraco-blue h-1 rounded' />
                 <table class="table-fixed w-full">
                   <tbody>
                     <tr>
                       <td className='pb-8 text-[1rem]'>Location:</td>
-                      <td className='font-bold pb-8 text-[1.2rem]'>Cantoments</td>
+                      <td className='font-semibold pb-8 text-[1.2rem]'>Cantoments</td>
                     </tr>
                     <tr>
                       <td className='pb-8 text-[1rem]'>Number of Units:</td>
-                      <td className='font-bold pb-8 text-[1.2rem]'>134 Hotel Apartments</td>
+                      <td className='font-semibold pb-8 text-[1.2rem]'>134 Hotel Apartments</td>
                     </tr>
                     <tr>
                       <td className='pb-8 text-[1rem]'>Type of Units:</td>
-                      <td className='font-bold pb-8 text-[1.2rem]'>Standard, Deluxe, Junior Suites & Executive Suites</td>
+                      <td className='font-semibold pb-8 text-[1.2rem]'>Standard, Deluxe, Junior Suites & Executive Suites</td>
                     </tr>
                     <tr>
                       <td className='pb-8 text-[1rem]'>Size:</td>
-                      <td className='font-bold pb-8 text-[1.2rem]'>39 sqm to 68.6 sqm</td>
+                      <td className='font-semibold pb-8 text-[1.2rem]'>39 sqm to 68.6 sqm</td>
                     </tr>
                     <tr>
                       <td className='pb-8 text-[1rem]'>Completion Date:</td>
-                      <td className='font-bold pb-8 text-[1.2rem]'>Q3 2023</td>
+                      <td className='font-semibold pb-8 text-[1.2rem]'>Q3 2023</td>
                     </tr>
                   </tbody>
                 </table>
