@@ -18,10 +18,8 @@ import MobileMenu from "./components/MobileMenu";
 import Property from "./pages/Property";
 import Properties from "./pages/Properties";
 import InvestorBenefits from "./pages/InvestorBenefits";
-import useStateValue from "./hooks/useStateValue";
 
 function App() {
-  const {state} = useStateValue();
   const [isWelcome, setIsWelcome] = useState(true);
   const pathname = useLocation().pathname;
   const isHome = pathname === "/";
