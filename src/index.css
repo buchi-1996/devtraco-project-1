@@ -1,35 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;300;400;500;600;700;800&display=swap");
 
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
-
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
-@layer{
-  body{
-      font-family: 'poppins';
-      font-weight: 300;
-      font-size: 0.875rem !important;
-      line-height: 164% !important;
-
+@layer {
+  body {
+    font-family: "poppins";
+    font-weight: 300;
+    font-size: 0.875rem !important;
+    line-height: 164% !important;
+    /* overflow-y: hidden; */
+    /* height: 100vh; */
   }
 
-  h1,h2,h4,h5{
-      font-family: 'prompt';
-      font-weight: 600 !important;
-      line-height: 120% !important;
+  h1,
+  h2,
+  h4,
+  h5 {
+    font-family: "prompt";
+    font-weight: 600 !important;
+    line-height: 120% !important;
   }
 }
 
 
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari, and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+
+    /* Hide scrollbar for IE, Edge, and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
 
 .slick-slide > div {
   margin: 0 10px;
@@ -38,20 +55,18 @@ html{
   margin: 0 -10px;
 }
 
-.slick-next{
+.slick-next {
   right: -80px;
 }
-.slick-prev{
+.slick-prev {
   left: -80px;
 }
 
-@media screen and (max-width: 768px){
-  .slick-next{
+@media screen and (max-width: 768px) {
+  .slick-next {
     right: -45px;
   }
-  .slick-prev{
+  .slick-prev {
     left: -45px;
   }
-
-  
 }

@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Button = ({text, isIcon, isOutlined}) => {
+const Button = ({route, text, isIcon, isOutlined}) => {
 
   if(isIcon){
-    return (<button className="border flex flex-row flex-none items center hover:text-devtraco-blue space-x-4 border-white rounded pt-2.5 pb-2 px-7 transition-all  mt-8 group hover:bg-white">
+    return (<Link to={route}><button className="border flex flex-row flex-none items center hover:text-devtraco-blue space-x-4 border-white rounded pt-2.5 pb-2 px-7 transition-all  mt-8 group hover:bg-white">
               <span className="text-white text-[1rem] group-hover:text-black">{text}</span>
               <span>
                 <svg
@@ -26,12 +27,12 @@ const Button = ({text, isIcon, isOutlined}) => {
                   </g>
                 </svg>
               </span>
-            </button>)
+            </button></Link>)
   }else{
   return (
-    <button className={`${isOutlined ? 'bg-transparent' : 'bg-white'} border flex flex-row items flex-none center space-x-4 border-white rounded pt-2.5 pb-2 px-4 transition-all  mt-8 group ${isOutlined ? 'hover:bg-white' : 'hover:bg-transparent'}`}>
+   <Link to={route}> <button className={`${isOutlined ? 'bg-transparent' : 'bg-white'} border flex flex-row items flex-none center space-x-4 border-white rounded pt-2.5 pb-2 px-4 transition-all  mt-8 group ${isOutlined ? 'hover:bg-white' : 'hover:bg-transparent'}`}>
               <span className={`${isOutlined ? 'text-white' : 'text-devtraco-blue'} text-[1rem] ${isOutlined ? 'group-hover:text-devtraco-blue': 'group-hover:text-white'}`}>{text}</span>
-            </button>
+            </button></Link>
   )}
 }
 

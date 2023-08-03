@@ -44,6 +44,12 @@ module.exports = {
         "service-card-4":
           "linear-gradient(to bottom, transparent, rgba(14, 21, 56, 0.7)), url('../public/Rectangle-857.jpg')",
         "service-card-hover": "linear-gradient(to bottom, #ABBAFF, #ABBAFF)",
+        "hero-box-1":
+          "linear-gradient(to bottom, rgba(52, 70, 159, 0.70), rgba(52, 70, 159, 0.70)), url('../public/Rectangle 3904.jpg')",
+        "hero-box1-hover": "linear-gradient(to bottom, #34469F, #34469F)",
+        "hero-box-2":
+          "linear-gradient(to bottom, rgba(13, 20, 55, 0.70), rgba(13, 20, 55, 0.70)), url('../public/2052ff792b273bd170f0b7ec038368d3.jpeg')",
+        "hero-box2-hover": "linear-gradient(to bottom, #0D1437, #0D1437)",
       },
       backgroundColor: {
         "credly-black": "#161616",

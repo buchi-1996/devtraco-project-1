@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, LayoutGroup } from "framer-motion";
 import Home from "./pages/Home";
@@ -21,6 +21,7 @@ import InvestorBenefits from "./pages/InvestorBenefits";
 
 function App() {
   const [isWelcome, setIsWelcome] = useState(true);
+  const [currentWidth, setCurrentWidth] = useState(0)
   const pathname = useLocation().pathname;
   const isHome = pathname === "/";
 
@@ -32,12 +33,43 @@ function App() {
     return () => clearTimeout(splash);
   }, []);
 
+  useEffect(() => {
+
+    if (pathname === '/') {
+      document.body.style.overflowY = 'hidden'
+    } else {
+      document.body.style.overflowY = 'scroll'
+
+    }
+
+  }, [pathname])
+
+
+  useLayoutEffect(() => {
+    const enableScroll = () => {
+      const width = Math.floor(window.innerWidth);
+      setCurrentWidth(width)
+      if (currentWidth < 1200 && pathname === '/') {
+        document.body.style.overflowY = 'scroll'
+      }
+
+      // if (currentWidth > 1200 && pathname === '/') {
+      //   document.body.style.overflowY = 'hidden'
+      // }
+    }
+
+    enableScroll();
+    window.addEventListener('resize', enableScroll);
+    return () => window.removeEventListener('resize', enableScroll)
+  }, [currentWidth, pathname])
+
+
   if (isWelcome && isHome) {
     return <SplashScreen />;
   }
 
   return (
-    <div className={`app`}>
+    <main className='app'>
       <AnimatePresence mode="wait">
         <LayoutGroup>
           {isHome ? <Header /> : <HeaderMain />}
@@ -58,7 +90,7 @@ function App() {
         </LayoutGroup>
       </AnimatePresence>
       <MobileMenu />
-    </div>
+    </main>
   );
 }
 

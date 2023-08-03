@@ -3,6 +3,7 @@ import headerBg from "../assets/Rectangle-3886.jpg";
 import PageBanner from "../components/PageBanner";
 import Button from "../components/Button";
 import TeamSlider from "../components/TeamSlider";
+import { headerRoutes } from "../routes/routes";
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
       />
       <section className="py-16">
         <div className="container mx-auto">
-          <div className="prose prose-slate min-w-full">
+          <div className="prose prose-slate min-w-full md:container mx-auto">
             <p>
               Devtraco Group is a property development company based in Accra,
               Ghana. Our portfolio ranges from premium residential and
@@ -67,7 +68,7 @@ const About = () => {
       </section>
       <section className="py-20">
         <div className="container mx-auto">
-          <div className="grid  lg:grid-cols-5 gap-11">
+          <div className="grid  lg:grid-cols-5 gap-11 md:container mx-auto">
             <div className="col-auto lg:col-span-2">
               <div className="mb-14">
                 <span className="text-primary-purple">_Who We Are</span>
@@ -389,7 +390,7 @@ const About = () => {
               thinking enable us to deliver outstanding results, exceed
               expectations, and ensure customer satisfaction.
             </p>
-            <Button text="Find out More" isIcon={true} />
+            <Button route={headerRoutes.Team} text="Find out More" isIcon={true} />
           </div>
           {/* Team Slider */}
           <TeamSlider />

@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <main>
       <Hero />
-      <section id="about" className="py-14 bg-devtraco-blue">
+      <section id="about" className="pt-14 pb-2 bg-devtraco-blue">
         <div className="container mx-auto">
           <div className="flex flex-row flex-wrap items-center justify-center gap-y-4 gap-4 sm:gap-10">
             <div>
@@ -111,7 +111,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="bg-devtraco-blue py-5 md:py-10">
+      {/* <section className="bg-devtraco-blue py-5 md:py-10">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-6 gap-4">
             <div className="group/card h-[39rem] w-full  flex flex-col items-left justify-end px-8 py-10 bg-extra-1 hover:bg-extra-hover-1 bg-cover bg-center">
@@ -146,8 +146,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="bg-devtraco-blue py-28">
+      </section> */}
+      <section className="bg-devtraco-blue pt-10 pb-20">
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row items-start md:items-end justify-between space-y-6 md:space-x-10">
             <div>
@@ -433,8 +433,8 @@ const Home = () => {
             </p>
             <Button text="Find out More" isIcon={true} />
           </div>
-          <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-4 py-20">
-            <div className="w-full md:max-w-[26rem]">
+          <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-6 py-20">
+            <div className="w-full ">
               <div className="relative group/sub">
                 <img
                   src="../property1.jpg"
@@ -481,7 +481,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="w-full md:max-w-[26rem]">
+            <div className="w-full ">
               <div className="relative group/sub">
                 <img
                   src="../property1.jpg"
@@ -527,7 +527,7 @@ const Home = () => {
                 11 unique developments.
               </p>
             </div>
-            <div className="w-full md:max-w-[26rem]">
+            <div className="w-full">
               <div className="relative group/sub">
                 <img
                   src="../property1.jpg"
@@ -575,7 +575,7 @@ const Home = () => {
                 municipality during the COVID-19 pandemic.
               </p>
             </div>
-            <div className="w-full md:max-w-[26rem]">
+            <div className="w-full">
               <div className="relative group/sub">
                 <img
                   src="../property1.jpg"
@@ -621,7 +621,7 @@ const Home = () => {
                 Roman Ridge, Airport Residential Area, Labone and Dzorwulu.
               </p>
             </div>
-            <div className="w-full md:max-w-[26rem]">
+            <div className="w-full">
               <div className="relative group/sub">
                 <img
                   src="../property1.jpg"
@@ -667,7 +667,7 @@ const Home = () => {
                 clients with comfort and peace of mind.
               </p>
             </div>
-            <div className="w-full md:max-w-[26rem]">
+            <div className="w-full">
               <div className="relative group/sub">
                 <img
                   src="../property1.jpg"
