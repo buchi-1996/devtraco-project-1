@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import TabGallery from "../components/TabGallery";
 import Testimonial from "../components/Testimonial";
 import ContactForm from "../components/ContactForm";
+import { headerRoutes } from "../routes/routes";
 
 const Home = () => {
   return (
@@ -65,7 +66,7 @@ const Home = () => {
               </div>
             </div>
             <div className="mt-20 lg:mt-0">
-              <h1 className="text-[3rem] font-bold md:max-w-[33.5rem] text-white">
+              <h1 className="text-[2.5rem] md:text-[3rem] font-bold md:max-w-[33.5rem] text-white">
                 <span className="text-primary-purple">Why Invest in Us:</span>
                 Your Path to Financial Success
               </h1>
@@ -104,8 +105,8 @@ const Home = () => {
                 </div>
               </div>
               <div className="mt-5 flex flex-wrap  flex-row items-center gap-4">
-                <Button text="Find out More" isIcon={true} />
-                <Button text="Contact Us" isIcon={false} />
+                <Button route={headerRoutes.About} text="Find out More" isIcon={true} />
+                <Button route={headerRoutes.Contact} text="Contact Us" isIcon={false} />
               </div>
             </div>
           </div>
@@ -152,7 +153,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-start md:items-end justify-between space-y-6 md:space-x-10">
             <div>
               <span className="text-primary-purple">_Our Services</span>
-              <h1 className="text-[3rem] text-white font-bold max-w-[26rem]">
+              <h1 className="text-[2.5rem] md:text-[3rem] text-white font-bold max-w-[26rem]">
                 Building Dreams, Creating Value
               </h1>
             </div>
@@ -163,19 +164,17 @@ const Home = () => {
               life and deliver exceptional value to our clients, partners, and
               investors.
             </p>
-            <Button text="Find out More" isIcon={true} />
+            <Button route={headerRoutes.Services} text="Find out More" isIcon={true} />
           </div>
           <div className="my-10">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
               {/* service card */}
-              <div className="group bg-no-repeat bg-service-card-1 hover:bg-service-card-hover bg-cover py-10 px-10 col-auto md:col-span-2 transition-all ease-in-out duration-500 delay-[500ms]">
+              <div className="group bg-no-repeat bg-service-card-1 hover:bg-service-card-hover bg-cover  p-5 md:p-10 col-auto md:col-span-2 transition-all ease-in-out duration-500 delay-[500ms]">
                 <div className="flex flex-row items-center justify-between">
                   <span>
                     <svg
-                      className="text-white group-hover:text-devtraco-blue"
+                      className="text-white group-hover:text-devtraco-blue w-12 md:w-14 h-12 md:h-14"
                       xmlns="http://www.w3.org/2000/svg"
-                      width="64"
-                      height="64"
                       viewBox="0 0 64 64"
                       fill="none"
                     >
@@ -201,11 +200,9 @@ const Home = () => {
                       />
                     </svg>
                   </span>
-                  <span className="bg-white group-hover:bg-devtraco-blue w-12 h-12 flex items-center justify-center rounded-full">
+                  <span className="bg-white group-hover:bg-devtraco-blue w-10 md:w-12 h-10 md:h-12 flex items-center justify-center rounded-full">
                     <svg
-                      className="text-devtraco-blue group-hover:text-devtraco-primary-blue"
-                      width="24"
-                      height="25"
+                      className="text-devtraco-blue group-hover:text-devtraco-primary-blue w-4 md:w-6 h-4 md:h-6"
                       viewBox="0 0 24 25"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -223,24 +220,23 @@ const Home = () => {
                     </svg>
                   </span>
                 </div>
-                <h4 className="font-bold text-[2rem] mt-10 mb-4 text-white group-hover:text-devtraco-blue">
+                <h4 className="font-bold text-[1.5rem] md:text-[2rem] mt-10 mb-4 text-white group-hover:text-devtraco-blue">
                   Development
                 </h4>
-                <p className="text-white max-w-md group-hover:text-devtraco-blue group-hover:font-[400]">
+                <p className="text-white max-w-md group-hover:text-devtraco-blue group-hover:font-medium">
                   From concept to completion, our expert team at Devtraco Group
                   brings your vision to life. We specialize in designing and
                   developing premium residential and commercial properties that
                   surpass expectations.
                 </p>
               </div>
-              <div className="group bg-no-repeat bg-service-card-2 hover:bg-service-card-hover bg-cover py-10 px-10 transition-all ease-in-out duration-500 delay-[500ms]">
+              <div className="group bg-no-repeat bg-service-card-2 hover:bg-service-card-hover bg-cover  p-5 md:p-10 transition-all ease-in-out duration-500 delay-[500ms]">
                 <div className="flex flex-row items-center justify-between">
                   <span>
-                    <svg
-                      className="text-white group-hover:text-devtraco-blue"
+                    <svg 
+                      className="text-white group-hover:text-devtraco-blue w-12 md:w-14 h-12 md:h-14"
                       xmlns="http://www.w3.org/2000/svg"
-                      width="65"
-                      height="64"
+                     
                       viewBox="0 0 65 64"
                       fill="none"
                     >
@@ -254,11 +250,10 @@ const Home = () => {
                       />
                     </svg>
                   </span>
-                  <span className="bg-white group-hover:bg-devtraco-blue w-12 h-12 flex items-center justify-center rounded-full">
+                  <span className="bg-white group-hover:bg-devtraco-blue w-10 md:w-12 h-10 md:h-12 flex items-center justify-center rounded-full">
                     <svg
-                      className="text-devtraco-blue group-hover:text-devtraco-primary-blue"
-                      width="24"
-                      height="25"
+                      className="text-devtraco-blue group-hover:text-devtraco-primary-blue w-4 md:w-6 h-4 md:h-6"
+                      
                       viewBox="0 0 24 25"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -276,24 +271,22 @@ const Home = () => {
                     </svg>
                   </span>
                 </div>
-                <h4 className="font-bold text-[2rem] mt-10 mb-4 text-white group-hover:text-devtraco-blue">
+                <h4 className="font-bold text-[1.5rem] md:text-[2rem] mt-10 mb-4 text-white group-hover:text-devtraco-blue">
                   Construction
                 </h4>
-                <p className="text-white max-w-md group-hover:text-devtraco-blue group-hover:font-[400]">
+                <p className="text-white max-w-md group-hover:text-devtraco-blue group-hover:font-medium">
                   From concept to completion, our expert team at Devtraco Group
                   brings your vision to life. We specialize in designing and
                   developing premium residential and commercial properties that
                   surpass expectations.
                 </p>
               </div>
-              <div className="group bg-no-repeat bg-service-card-3 hover:bg-service-card-hover bg-cover py-10 px-10 transition-all ease-in-out duration-500 delay-[500ms]">
+              <div className="group bg-no-repeat bg-service-card-3 hover:bg-service-card-hover bg-cover p-5 md:p-10 transition-all ease-in-out duration-500 delay-[500ms]">
                 <div className="flex flex-row items-center justify-between">
                   <span>
                     <svg
-                      className="text-white group-hover:text-devtraco-blue"
+                      className="text-white group-hover:text-devtraco-blue w-12 md:w-14 h-12 md:h-14"
                       xmlns="http://www.w3.org/2000/svg"
-                      width="64"
-                      height="64"
                       viewBox="0 0 64 64"
                       fill="none"
                     >
@@ -319,11 +312,9 @@ const Home = () => {
                       />
                     </svg>
                   </span>
-                  <span className="bg-white group-hover:bg-devtraco-blue w-12 h-12 flex items-center justify-center rounded-full">
+                  <span className="bg-white group-hover:bg-devtraco-blue w-10 md:w-12 h-10 md:h-12 flex items-center justify-center rounded-full">
                     <svg
-                      className="text-devtraco-blue group-hover:text-devtraco-primary-blue"
-                      width="24"
-                      height="25"
+                      className="text-devtraco-blue group-hover:text-devtraco-primary-blue w-4 md:w-6 h-4 md:h-6"
                       viewBox="0 0 24 25"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -341,24 +332,22 @@ const Home = () => {
                     </svg>
                   </span>
                 </div>
-                <h4 className="font-bold text-[2rem] mt-10 mb-4 text-white group-hover:text-devtraco-blue">
+                <h4 className="font-bold text-[1.5rem] md:text-[2rem] mt-10 mb-4 text-white group-hover:text-devtraco-blue">
                   Property Management
                 </h4>
-                <p className="text-white max-w-md group-hover:text-devtraco-blue group-hover:font-[400]">
+                <p className="text-white max-w-md group-hover:text-devtraco-blue group-hover:font-medium">
                   From concept to completion, our expert team at Devtraco Group
                   brings your vision to life. We specialize in designing and
                   developing premium residential and commercial properties that
                   surpass expectations.
                 </p>
               </div>
-              <div className="group bg-no-repeat bg-service-card-4 hover:bg-service-card-hover bg-cover py-10 px-10  col-auto md:col-span-2  transition-all ease-in-out duration-500 delay-[500ms]">
+              <div className="group bg-no-repeat bg-service-card-4 hover:bg-service-card-hover bg-cover  p-5 md:p-10  col-auto md:col-span-2  transition-all ease-in-out duration-500 delay-[500ms]">
                 <div className="flex flex-row items-center justify-between">
                   <span>
                     <svg
-                      className="text-white group-hover:text-devtraco-blue"
+                      className="text-white group-hover:text-devtraco-blue w-12 md:w-14 h-12 md:h-14"
                       xmlns="http://www.w3.org/2000/svg"
-                      width="50"
-                      height="64"
                       viewBox="0 0 50 64"
                       fill="none"
                     >
@@ -380,11 +369,9 @@ const Home = () => {
                       />
                     </svg>
                   </span>
-                  <span className="bg-white group-hover:bg-devtraco-blue w-12 h-12 flex items-center justify-center rounded-full">
+                  <span className="bg-white group-hover:bg-devtraco-blue w-10 md:w-12 h-10 md:h-12 flex items-center justify-center rounded-full">
                     <svg
-                      className="text-devtraco-blue group-hover:text-devtraco-primary-blue"
-                      width="24"
-                      height="25"
+                      className="text-devtraco-blue group-hover:text-devtraco-primary-blue w-4 md:w-6 h-4 md:h-6"
                       viewBox="0 0 24 25"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -402,10 +389,10 @@ const Home = () => {
                     </svg>
                   </span>
                 </div>
-                <h4 className="font-bold text-[2rem] mt-10 mb-4 text-white group-hover:text-devtraco-blue">
+                <h4 className="font-bold text-[1.5rem] md:text-[2rem] mt-10 mb-4 text-white group-hover:text-devtraco-blue">
                   Hospitality
                 </h4>
-                <p className="text-white max-w-md group-hover:text-devtraco-blue group-hover:font-[400]">
+                <p className="text-white max-w-md group-hover:text-devtraco-blue group-hover:font-medium">
                   From concept to completion, our expert team at Devtraco Group
                   brings your vision to life. We specialize in designing and
                   developing premium residential and commercial properties that
@@ -421,7 +408,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-start md:items-end justify-between space-y-6 md:space-x-10">
             <div>
               <span className="text-primary-purple">_Our Subsidiaries</span>
-              <h1 className="text-[3rem] text-white font-bold max-w-[35rem]">
+              <h1 className="text-[2.5rem] md:text-[3rem] text-white font-bold max-w-[35rem]">
                 Empowering Lives, Transforming Industries
               </h1>
             </div>
@@ -431,7 +418,7 @@ const Home = () => {
               allowing us to make a positive impact in various sectors and
               empower lives in multiple ways.
             </p>
-            <Button text="Find out More" isIcon={true} />
+            <Button route={headerRoutes.Branches} text="Find out More" isIcon={true} />
           </div>
           <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-6 py-20">
             <div className="w-full ">
@@ -719,12 +706,12 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="py-28 bg-devtraco-blue">
+      <section className="py-20 bg-devtraco-blue">
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row items-start md:items-end justify-between space-y-6 md:space-x-10">
             <div>
               <span className="text-primary-purple">_Our Properties</span>
-              <h1 className="text-[3rem] text-white font-bold max-w-[36rem]">
+              <h1 className="text-[2.5rem] md:text-[3rem] text-white font-bold max-w-[36rem]">
                 Creating Legacies: Our Remarkable Portfolio
               </h1>
             </div>
@@ -735,18 +722,18 @@ const Home = () => {
               represents our unwavering commitment to excellence, innovation,
               and sustainability.
             </p>
-            <Button text="More Projects" isIcon={true} />
+            <Button route={headerRoutes.Properties} text="More Projects" isIcon={true} />
           </div>
           {/* Tab Gallery */}
           <TabGallery onDarkBg={true} />
         </div>
       </section>
-      <section className="bg-devtraco-blue py-24">
+      <section className="bg-devtraco-blue py-20">
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex-row items-start justify-between gap-y-14 space-x-0 lg:space-x-20">
             <div className="w-full lg:max-w-[39rem]">
               <span className="text-primary-purple">_Contact Us</span>
-              <h1 className="text-[3rem] text-white max-w-lg">
+              <h1 className="text-[2rem] md:text-[3rem] text-white max-w-lg">
                 Let's Start Building Together
               </h1>
 
@@ -766,7 +753,7 @@ const Home = () => {
       <section className="py-24 bg-devtraco-neutral-100">
         <div className="container mx-auto">
           <div>
-            <h1 className="text-[3rem] font-bold text-devtraco-blue">
+            <h1 className="text-[2.5rem] md:text-[3rem] font-bold text-devtraco-blue">
               Testimonials
             </h1>
             {/* Testimonial Slider Component */}

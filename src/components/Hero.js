@@ -3,6 +3,7 @@ import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import Button from "./Button";
 import { motion } from "framer-motion";
 import { pageSlide, pageTransition } from "../lib/framer-motion";
+import { headerRoutes } from "../routes/routes";
 
 const images = [
   {
@@ -152,7 +153,7 @@ const Hero = () => {
             exit="out"
             variants={pageSlide}
             transition={pageTransition}
-            className="md:bg-devtraco-blue md:bg-opacity-50 rounded-3xl py-12 md:px-14 flex-1"
+            className="bg-devtraco-blue bg-opacity-50 rounded-3xl py-12 p-5 mb-5 md:mb-0 md:px-14 flex-1"
           >
             <span className="bg-blue-50 text-[0.75rem] px-4 rounded-sm mb-4">_Welcome to Devtraco Group</span>
             <h1 className="text-[1.5rem] sm:text-[2.5rem] max-w-2xl leading-[120%] text-white">
@@ -163,7 +164,7 @@ const Hero = () => {
               real estate developments that transcend expectations. With a rich
               history and a commitment to excellence.
             </p>
-            <Button text="About Devtraco" isIcon={true} />
+            <Button route={headerRoutes.About} text="About Devtraco" isIcon={true} />
           </motion.div>
           <motion.div
             initial="initial"
